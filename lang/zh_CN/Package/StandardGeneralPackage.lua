@@ -264,13 +264,14 @@ return {
 	["biyue"] = "闭月",
 	[":biyue"] = "结束阶段开始时，你可以摸一张牌。",
 
-	["#st_yuanshu"] = "野心渐增",
-	["st_yuanshu"] = "袁术",
-	["illustrator:st_yuanshu"] = "LiuHeng",
-	["wangzun"] = "妄尊",
-	[":wangzun"] = "主公的准备阶段开始时，你可以摸一张牌，然后主公本回合手牌上限-1。",
-	["tongji"] = "同疾",
-	[":tongji"] = "锁定技。若你的手牌数大于你的体力值，且你在一名角色的攻击范围内，则其他角色不能被选择为该角色的【杀】的目标。",
+	["#st_yuanshu"] = "DÃ TÂM TIỀM TĂNG",
+	["st_yuanshu"] = "VIÊN THUẬT",
+	["illustrator:st_yuanshu"] = "LƯU HÙNG",--LiuHeng
+	["wangzun"] = "VỌNG TÔN",
+	[":wangzun"] = "Khi bắt đầu lượt đi của VUA, bạn có thể rút 1 lá, rồi giới hạn giữ bài của VUA bị giảm một lá.",
+	--主公的准备阶段开始时，你可以摸一张牌，然后主公本回合手牌上限-1
+	["tongji"] = "ĐỒNG TẬT",
+	[":tongji"] = "Tọa Định Kỷ. Khi số thể trên tay bạn lớn hơn số máu, và bạn ở trong tầm đánh của người chơi khác, những người chơi không thể là mục tiêu của lá SÁT.",--锁定技。若你的手牌数大于你的体力值，且你在一名角色的攻击范围内，则其他角色不能被选择为该角色的【杀】的目标。
 
 	["#st_huaxiong"] = "PHI DƯƠNG BẠT HỔ",
 	["st_huaxiong"] = "HOA HÙNG",
