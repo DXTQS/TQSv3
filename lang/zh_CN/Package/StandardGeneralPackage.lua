@@ -209,7 +209,7 @@ return {
 	["kurou"] = "KHỔ NHỤC",
 	[":kurou"] = "Một lần trong lượt. Bạn có thể bỏ 1 lá bài rồi mất 1 máu.",
 	["zhaxiang"] = "TRÁ HÀNG",
-	[":zhaxiang"] = "Tọa Định Kỷ。Khi bạn bị mất một máu, nếu đang trong lượt của bạn, bạn được dùng thêm 1 lá SÁT, và nếu dùng lá SÁT đỏ sẽ không giới hạn tầm và không thể TRÁNH。",
+	[":zhaxiang"] = "Tọa Định Kỉ。Khi bạn bị mất một máu, nếu đang trong lượt của bạn, bạn được dùng thêm 1 lá SÁT, và nếu dùng lá SÁT đỏ sẽ không giới hạn tầm và không thể TRÁNH。",
 
 	["#luxun"] = "NHO SANH HÙNG TÀI",
 	["luxun"] = "LỤC TỐN",
@@ -274,13 +274,13 @@ return {
 	["wangzun"] = "VỌNG TÔN",
 	[":wangzun"] = "Đầu lượt chuẩn bị của VUA, bạn được rút 1 lá, rồi giới hạn bài của VUA giảm đi 1.",
 	["tongji"] = "ĐỒNG TẬT",
-	[":tongji"] = "Tọa Định Kỷ. Nếu số bài trên tay bạn lớn hơn số máu, và bạn đang trong tầm đánh của 1 người chơi, những người chơi khác không thể trở thành mục tiêu của lá SÁT.",
+	[":tongji"] = "Tọa Định Kỉ. Nếu số bài trên tay bạn lớn hơn số máu, và bạn đang trong tầm đánh của 1 người chơi, những người chơi khác không thể trở thành mục tiêu của lá SÁT.",
 
 	["#st_huaxiong"] = "PHI DƯƠNG BẠT HỔ",
 	["st_huaxiong"] = "HOA HÙNG",
 	["illustrator:st_huaxiong"] = "ĐỊA NGỤC HỔ",
 	["yaowu"] = "DIỆU VŨ",
-	[":yaowu"] = "Tọa Định Kỷ. Khi bạn nhật sát thương từ lá SÁT đỏ, nguồn sát thương được chọn: hồi 1 máu, hoặc rút 1 lá.",
+	[":yaowu"] = "Tọa Định Kỉ. Khi bạn nhật sát thương từ lá SÁT đỏ, nguồn sát thương được chọn: hồi 1 máu, hoặc rút 1 lá.",
 	["yaowu:recover"] = "Hồi 1 máu",
 	["yaowu:draw"] = "Lấy 1 lá.",
 
@@ -306,7 +306,7 @@ return {
 	["&super_yuanshu"] = "VIÊN THUẬT",
 	["illustrator:super_yuanshu"] = "NGÔ HẠO",
 	["super_yongsi"] = "DUNG TỨ",
-	[":super_yongsi"] = "Tọa Định Kỷ. Trong giai đoạn rút bài, bạn được rút 6 lá. \nĐầu giai đoạn xả bài, bạn phải bỏ 4 lá.",-- Tọa Định Kỷ. Trong giai đoạn rút bài, bạn được rút X lá. Đầu giai đoạn xả bài, bạn phải bỏ X lá.
+	[":super_yongsi"] = "Tọa Định Kỉ. Trong giai đoạn rút bài, bạn được rút 6 lá. \nĐầu giai đoạn xả bài, bạn phải bỏ 4 lá.",-- Tọa Định Kỉ. Trong giai đoạn rút bài, bạn được rút X lá. Đầu giai đoạn xả bài, bạn phải bỏ X lá.
 
 	["super_caoren"] = "TRẮC THÍ TÀO NHÂN",
 	["&super_caoren"] = "TÀO NHÂN",
@@ -321,7 +321,7 @@ return {
 	["gaodayihao"] = "CAO ĐẠT NHẤT HIỆU",
 	["illustrator:gaodayihao"] = "Ba Tát Tiểu Mã",
 	["gdjuejing"] = "Tuyệt Cảnh",
-	[":gdjuejing"] = "Tọa Định Kỷ.Vào lượt rút bài，bạn bỏ qua lượt rút bài。Khi số bài trên tay thay đổi，nếu không cầm 4 lá，bạn phải lấy hoặc bỏ để số bài về 4.",
+	[":gdjuejing"] = "Tọa Định Kỉ.Vào lượt rút bài，bạn bỏ qua lượt rút bài。Khi số bài trên tay thay đổi，nếu không cầm 4 lá，bạn phải lấy hoặc bỏ để số bài về 4.",
 	["#GdJuejing"] = "%from kích hoạt “%arg”，bỏ qua lượt rút bài",
 	["gdlonghun"] = "Long Hồn",
 	[":gdlonghun"] = "Bạn có thể dụng bài như sau: \nlá CƠ như ĐÀO, \nRÔ như SÁT, \nBÍCH như VÔ GIẢI KHẢ KÍCH, \nCHUỒN như TRÁNH. \nỞ giai đoạn chuẩn bị, nếu có người chơi trang bị THANH CÔNG KIẾM, bạn được quyền lấy nó. ",
