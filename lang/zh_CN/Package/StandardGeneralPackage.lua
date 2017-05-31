@@ -287,7 +287,7 @@ return {
 	["st_gongsunzan"] = "CÔNG TÔN TOẢN",--公孙瓒
 	["illustrator:st_gongsunzan"] = "CÔNG TÔN TOẢN",
 	["qiaomeng"] = "CHIÊU MÃNH",
-	[":qiaomeng"] = "Khi bạn gây sát thương thành công lên một người chơi khác bằng SÁT đen, bạn có thể bỏ một lá trong khu vực của người chơi đó: Nếu lá đó là CHIẾN MÃ, bạn nhận được lá đó.",--每当你使用黑色【杀】对一名角色造成伤害后，你可以弃置该角色装备区的一张牌：若此牌为坐骑牌，此牌置入弃牌堆时你获得之。
+	[":qiaomeng"] = "Khi bạn gây sát thương thành công lên một người chơi khác bằng SÁT đen, \nbạn có thể bỏ một lá trong khu vực của người chơi đó: \nNếu lá đó là CHIẾN MÃ, bạn nhận được lá đó.",--每当你使用黑色【杀】对一名角色造成伤害后，你可以弃置该角色装备区的一张牌：若此牌为坐骑牌，此牌置入弃牌堆时你获得之。
 
 	-- Test
 	["test"] = "TRẮC THÍ",
@@ -306,12 +306,12 @@ return {
 	["&super_yuanshu"] = "VIÊN THUẬT",
 	["illustrator:super_yuanshu"] = "NGÔ HẠO",
 	["super_yongsi"] = "DUNG TỨ",
-	[":super_yongsi"] = "Tọa Định Kỷ. Trong giai đoạn rút bài, bạn được rút X lá. Đầu giai đoạn xả bài, bạn phải bỏ X lá.",
+	[":super_yongsi"] = "Tọa Định Kỷ. Trong giai đoạn rút bài, bạn được rút 6 lá. \nĐầu giai đoạn xả bài, bạn phải bỏ 4 lá.",-- Tọa Định Kỷ. Trong giai đoạn rút bài, bạn được rút X lá. Đầu giai đoạn xả bài, bạn phải bỏ X lá.
 
 	["super_caoren"] = "TRẮC THÍ TÀO NHÂN",
 	["&super_caoren"] = "TÀO NHÂN",
 	["super_jushou"] = "CƯ THÚ",
-	[":super_jushou"] = "Cuối lượt, bạn được rút X lá, rồi úp mặt tướng",
+	[":super_jushou"] = "Cuối lượt, bạn được rút 5 lá, rồi úp mặt tướng",--Cuối lượt, bạn được rút X lá, rồi úp mặt tướng: Test thử thấy X là 5?????
 
 	["super_max_cards"] = "THỦ BÀI THƯỢNG HẠN",
 	["super_offensive_distance"] = "Tầm đánh -X",
@@ -324,7 +324,7 @@ return {
 	[":gdjuejing"] = "Tọa Định Kỷ.Vào lượt rút bài，bạn bỏ qua lượt rút bài。Khi số bài trên tay thay đổi，nếu không cầm 4 lá，bạn phải lấy hoặc bỏ để số bài về 4.",
 	["#GdJuejing"] = "%from kích hoạt “%arg”，bỏ qua lượt rút bài",
 	["gdlonghun"] = "Long Hồn",
-	[":gdlonghun"] = "Bạn có thể dụng bài như sau: lá CƠ như ĐÀO, RÔ như SÁT, BÍCH như VÔ GIẢI KHẢ KÍCH, CHUỒN như TRÁNH. Ở giai đoạn chuẩn bị, nếu có người chơi trang bị THANH CÔNG KIẾM, bạn được quyền lấy nó.",
+	[":gdlonghun"] = "Bạn có thể dụng bài như sau: \nlá CƠ như ĐÀO, \nRÔ như SÁT, \nBÍCH như VÔ GIẢI KHẢ KÍCH, \nCHUỒN như TRÁNH. \nỞ giai đoạn chuẩn bị, nếu có người chơi trang bị THANH CÔNG KIẾM, bạn được quyền lấy nó. ",
 
 	["nobenghuai_dongzhuo"] = "Vô Băng Đổng Trác",
 	["&nobenghuai_dongzhuo"] = "Đổng Trác",
