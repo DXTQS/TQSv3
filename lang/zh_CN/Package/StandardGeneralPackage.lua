@@ -130,35 +130,37 @@ return {
 	["@yajiao-give"] = "Chọn một người để cho bài %arg[%arg2]",
 	["yajiao:throw"] = "Đặt vào chồng bài bỏ",
 
-	["#machao"] = "一骑当千",
-	["machao"] = "马超",
+	["#machao"] = "Nhất Kị Đương Thiên", --一骑当千
+	["machao"] = "Mã Siêu", --马超
 	["illustrator:machao"] = "KayaK, 木美人, 张帅",
-	["mashu"] = "马术",
-	[":mashu"] = "锁定技。你与其他角色的距离-1。",
-	["tieji"] = "铁骑",
-	[":tieji"] = "每当你指定【杀】的目标后，你可以令该角色的非锁定技无效直到回合结束并进行判定：若如此做，该角色须弃置一张与判定牌花色相同的牌，否则其不能使用【闪】响应此【杀】。",
-	["@tieji-discard"] = "请弃置一张 %arg 牌，否则你不能使用【闪】响应此【杀】",
+	["mashu"] = "Mã Thuật", --马术
+	[":mashu"] = "Tỏa Định Kỹ. Khoảng cách từ bạn đến người chơi khác là -1", --锁定技。你与其他角色的距离-1。
+	["tieji"] = "Thiết Kị", --铁骑
+	[":tieji"] = "Mỗi lần dùng lá 【Sát】 lên mục tiêu， bạn được rút phán xét và các kỹ năng của mục tiêu tạm thời bị vô hiệu hóa cho đến hêt lượt： mục tiêu phải bỏ 1 lá cùng lá với lá phán xêt nếu không sẽ không được dùng 【Ngự】.", --每当你指定【杀】的目标后，你可以令该角色的非锁定技无效直到回合结束并进行判定：若如此做，该角色须弃置一张与判定牌花色相同的牌，否则其不能使用【闪】响应此【杀】。
+	["@tieji-discard"] = "Hãy bỏ 1 thẻ bài %arg，Nếu không bạn không thể dùng 【Ngự】", --请弃置一张 %arg 牌，否则你不能使用【闪】响应此【杀】
 
-	["#huangyueying"] = "归隐的杰女",
-	["huangyueying"] = "黄月英",
+	["#huangyueying"] = "Quy Ẩn Đích Kiệt Nữ", --归隐的杰女
+	["huangyueying"] = "Hoàng Nguyệt Anh", --黄月英
 	["illustrator:huangyueying"] = "Ask",
-	["jizhi"] = "集智",
-	[":jizhi"] = "每当你使用一张锦囊牌时，你可以展示牌堆顶的一张牌：若此牌为基本牌，你选择一项：将之置入弃牌堆，或用一张手牌替换之；若此牌不为基本牌，你获得之。",
-	["@jizhi-exchange"] = "你可以用一张手牌替换展示的【%arg】",
-	["qicai"] = "奇才",
-	[":qicai"] = "锁定技。你使用锦囊牌无距离限制。其他角色不能弃置你装备区的除坐骑牌外的牌。",
+	["jizhi"] = "Tập Trí", --集智
+	[":jizhi"] = "Bất cứ khi bạn sử dụng một thẻ công cụ， bạn lật một lá trên chồng bài： " ..
+				 "- Nếu không phải là thẻ cơ bản, bạn được giữ nó." ..
+				 "- Nếu là lá cơ bản, bạn được đổi với một lá bất kỳ trên tay và bỏ lá vừa rút đó." --每当你使用一张锦囊牌时，你可以展示牌堆顶的一张牌：若此牌为基本牌，你选择一项：将之置入弃牌堆，或用一张手牌替换之；若此牌不为基本牌，你获得之。
+	["@jizhi-exchange"] = "Sử dụng thẻ trên tay để thay thế kích hoạt của 【%arg】",
+	["qicai"] = "Kì Tài", --奇才
+	[":qicai"] = "Tỏa Định Kỹ.Có thể sử dụng thẻ công cụng không giới hạn khoảng cách.  Other players cannot remove Huang Yue Ying's armor unless they are within range to her.", --锁定技。你使用锦囊牌无距离限制。其他角色不能弃置你装备区的除坐骑牌外的牌。
 
-	["#st_xushu"] = "化剑为犁",
-	["st_xushu"] = "徐庶",
+	["#st_xushu"] = "Hóa Kiếm Vị Lê", --化剑为犁
+	["st_xushu"] = "Từ Thứ", --徐庶
 	["illustrator:st_xushu"] = "MSNZero",
-	["zhuhai"] = "诛害",
-	[":zhuhai"] = "一名其他角色的结束阶段开始时，若该角色本回合造成过伤害，你可以对其使用一张无距离限制的【杀】。",
-	["qianxin"] = "潜心",
-	[":qianxin"] = "觉醒技。每当你造成伤害后，若你已受伤，你失去1点体力上限，然后获得“荐言”（阶段技。你可以选择一种牌的类别或颜色，然后你依次亮出牌堆顶的牌直到与你的选择相符，然后你令一名男性角色获得此牌，再将亮出的牌置入弃牌堆）。",
-	["jianyan"] = "荐言",
-	[":jianyan"] = "阶段技。你可以选择一种牌的类别或颜色，然后你依次亮出牌堆顶的牌直到与你的选择相符，然后你令一名男性角色获得此牌，再将亮出的牌置入弃牌堆。",
-	["@zhuhai-slash"] = "你可以发动“诛害”对 %dest 使用一张【杀】",
-	["@jianyan-give"] = "你可以令一名男性角色获得 %arg[%arg2]",
+	["zhuhai"] = "Tru Hại", --诛害
+	[":zhuhai"] = "nếu một người chơi khác bị nhận thiệt hại trong lượt của họ, bạn có thể gây sát thương lên người đó bằng lá 【Sát】 và không giới hạn tầm đánh", --一名其他角色的结束阶段开始时，若该角色本回合造成过伤害，你可以对其使用一张无距离限制的【杀】。
+	["qianxin"] = "Tiềm Tâm", --潜心
+	[":qianxin"] = "Giác Tỉnh Kỹ. 每当你造成伤害后，若你已受伤，你失去1点体力上限，然后获得“ 荐言 ”（阶段技。你可以选择一种牌的类别或颜色，然后你依次亮出牌堆顶的牌直到与你的选择相符，然后你令一名男性角色获得此牌，再将亮出的牌置入弃牌堆）。", --觉醒技。每当你造成伤害后，若你已受伤，你失去1点体力上限，然后获得“荐言”（阶段技。你可以选择一种牌的类别或颜色，然后你依次亮出牌堆顶的牌直到与你的选择相符，然后你令一名男性角色获得此牌，再将亮出的牌置入弃牌堆）。
+	["jianyan"] = "Tiến Ngôn", --荐言
+	[":jianyan"] = "Một lần trong lượt. bạn có thể chon màu và chất sau đó rút trên chồng bài đến khi nào có được lá bạn chọn rồi cho lá này cho một người chơi khác giới. những lá rút trước đó bỏ vào chồng bài bỏ.",
+	["@zhuhai-slash"] = "Bạn có thể phát động \"Tru Hại\" lên %dest để sử dụng lá 【Sát】",
+	["@jianyan-give"] = "Chọn một người khác giới để nhận %arg[%arg2]",
 	["#QianxinWake"] = "%from 已受伤，触发“%arg”觉醒",
 	["#JianyanChoice"] = "%from 选择了 %arg",
 	["$JianyanAnimate"] = "image=image/animate/jianyan.png",
