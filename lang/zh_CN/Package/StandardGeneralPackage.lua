@@ -158,7 +158,7 @@ return {
 	["qianxin"] = "Tiềm Tâm", --潜心
 	[":qianxin"] = "Giai Đoạn Kĩ. 每当你造成伤害后，若你已受伤，你失去1点体力上限，然后获得“ 荐言 ”（阶段技。你可以选择一种牌的类别或颜色，然后你依次亮出牌堆顶的牌直到与你的选择相符，然后你令一名男性角色获得此牌，再将亮出的牌置入弃牌堆）。", --觉醒技。每当你造成伤害后，若你已受伤，你失去1点体力上限，然后获得“荐言”（阶段技。你可以选择一种牌的类别或颜色，然后你依次亮出牌堆顶的牌直到与你的选择相符，然后你令一名男性角色获得此牌，再将亮出的牌置入弃牌堆）。
 	["jianyan"] = "Tiến Ngôn", --荐言
-	[":jianyan"] = "Một lần trong lượt. bạn có thể chon màu và chất sau đó rút trên chồng bài đến khi nào có được lá bạn chọn rồi cho lá này cho một người chơi khác giới. những lá rút trước đó bỏ vào chồng bài bỏ.",
+	[":jianyan"] = "Giai Đoạn Kĩ. bạn có thể chon màu và chất sau đó rút trên chồng bài đến khi nào có được lá bạn chọn rồi cho lá này cho một người chơi khác giới. những lá rút trước đó bỏ vào chồng bài bỏ.",
 	["@zhuhai-slash"] = "Bạn có thể phát động \"Tru Hại\" lên %dest để sử dụng lá 【Sát】",
 	["@jianyan-give"] = "Chọn một người khác giới để nhận %arg[%arg2]",
 	["#QianxinWake"] = "%from 已受伤，触发“%arg”觉醒",
@@ -207,9 +207,9 @@ return {
 	["huanggai"] = "HOÀNG CÁI",
 	["illustrator:huanggai"] = "G.G.G.",
 	["kurou"] = "KHỔ NHỤC",
-	[":kurou"] = "Một lần trong lượt. Bạn có thể bỏ 1 lá bài rồi mất 1 máu.",
+	[":kurou"] = "Giai Đoạn Kĩ. Bạn có thể bỏ 1 lá bài rồi mất 1 máu.",
 	["zhaxiang"] = "TRÁ HÀNG",
-	[":zhaxiang"] = "Tọa Định Kỷ。Khi bạn bị mất một máu, nếu đang trong lượt của bạn, bạn được dùng thêm 1 lá SÁT, và nếu dùng lá SÁT đỏ sẽ không giới hạn tầm và không thể TRÁNH。",
+	[":zhaxiang"] = "Tọa Định Kỉ。Khi bạn bị mất một máu, nếu đang trong lượt của bạn, bạn được dùng thêm 1 lá SÁT, và nếu dùng lá SÁT đỏ sẽ không giới hạn tầm và không thể TRÁNH。",
 
 	["#luxun"] = "NHO SANH HÙNG TÀI",
 	["luxun"] = "LỤC TỐN",
@@ -225,7 +225,7 @@ return {
 	["daqiao"] = "ĐẠI KIỀU",
 	["illustrator:daqiao"] = "DH",
 	["guose"] = "QUỐC SẮC",
-	[":guose"] = "Một lần trong lượt。 Bạn được dùng lá RÔ như LẠC BẤT TƯ THỤC, và có thể bỏ lá RÔ coi như LẠC BẤT TƯ THỤC đó để lấy 1 lá。",
+	[":guose"] = "Giai Đoạn Kĩ. Bạn được dùng lá RÔ như LẠC BẤT TƯ THỤC, và có thể bỏ lá RÔ coi như LẠC BẤT TƯ THỤC đó để lấy 1 lá。",
 	["liuli"] = "LƯU LI",
 	[":liuli"] = "Khi là mục tiêu của 【Sát】, bạn có thể bỏ 1 thẻ bài để chuyển đòn thẻ 【Sát】 sang một người chơi trong tầm đánh của mình.",
 	["~liuli"] = "Chọn 1 lá → chọn 1 người chơi → Bấm OK",
@@ -234,7 +234,7 @@ return {
 	["#sunshangxiang"] = "CUNG YÊU CƠ",
 	["sunshangxiang"] = "TÔN THƯỢNG HƯƠNG",
 	["jieyin"] = "KẾT NHÂN",
-	[":jieyin"] = "Một lần trong lượt。Bạn có thể bỏ 2 lá và chọn một người chơi nam đã mất máu: rồi bạn và người đó được hồi 1 máu。",
+	[":jieyin"] = "Giai Đoạn Kĩ.Bạn có thể bỏ 2 lá và chọn một người chơi nam đã mất máu: rồi bạn và người đó được hồi 1 máu。",
 	["xiaoji"] = "KIÊU CƠ",
 	[":xiaoji"] = "Khi bạn bị mất thẻ trang bị trong khu trang bị, bạn được rút 2 lá。",
 
@@ -255,7 +255,7 @@ return {
 	["huatuo"] = "HOA ĐÀ",
 	["illustrator:huatuo"] = "琛·美弟奇",
 	["chuli"] = "TRỪ LỆ",
-	[":chuli"] = "Một lần trong lượt。Nếu bạn có 1 lá, bạn được chọn một người chơi mỗi nước, rồi bạn và những người chơi đó bỏ hết bài."..
+	[":chuli"] = "Giai Đoạn Kĩ. Nếu bạn có 1 lá, bạn được chọn một người chơi mỗi nước, rồi bạn và những người chơi đó bỏ hết bài."..
 				 "\nNgười chơi bào bỏ 1 lá BÍCH được rút lại 1 lá。",
 	["jijiu"] = "CẤP CỨU",
 	[":jijiu"] = "Ngoài lượt của bạn, bạn được dùng lá ĐỎ như lá ĐÀO。",
@@ -264,7 +264,7 @@ return {
 	["diaochan"] = "ĐIÊU THUYỀN",
 	["illustrator:diaochan"] = "MỘC MĨ NHÂN",
 	["lijian"] = "Li Gián",
-	[":lijian"] = "Một lần trong lượt hành động, có thể bỏ 1 thẻ bài, chỉ định 2 người chơi nam khác tiến hành 【Quyết Đấu】 với nhau.",
+	[":lijian"] = "Giai Đoạn Kĩ. Có thể bỏ 1 thẻ bài, chỉ định 2 người chơi nam khác tiến hành 【Quyết Đấu】 với nhau.",
 	["biyue"] = "Bế Nguyệt",
 	[":biyue"] = "Có thể rút 1 thẻ bài vào cuối lượt.",
 
@@ -274,13 +274,13 @@ return {
 	["wangzun"] = "VỌNG TÔN",
 	[":wangzun"] = "Đầu lượt chuẩn bị của VUA, bạn được rút 1 lá, rồi giới hạn bài của VUA giảm đi 1.",
 	["tongji"] = "ĐỒNG TẬT",
-	[":tongji"] = "Tọa Định Kỷ. Nếu số bài trên tay bạn lớn hơn số máu, và bạn đang trong tầm đánh của 1 người chơi, những người chơi khác không thể trở thành mục tiêu của lá SÁT.",
+	[":tongji"] = "Tọa Định Kỉ. Nếu số bài trên tay bạn lớn hơn số máu, và bạn đang trong tầm đánh của 1 người chơi, những người chơi khác không thể trở thành mục tiêu của lá SÁT.",
 
 	["#st_huaxiong"] = "PHI DƯƠNG BẠT HỔ",
 	["st_huaxiong"] = "HOA HÙNG",
 	["illustrator:st_huaxiong"] = "ĐỊA NGỤC HỔ",
 	["yaowu"] = "DIỆU VŨ",
-	[":yaowu"] = "Tọa Định Kỷ. Khi bạn nhật sát thương từ lá SÁT đỏ, nguồn sát thương được chọn: hồi 1 máu, hoặc rút 1 lá.",
+	[":yaowu"] = "Tọa Định Kỉ. Khi bạn nhật sát thương từ lá SÁT đỏ, nguồn sát thương được chọn: hồi 1 máu, hoặc rút 1 lá.",
 	["yaowu:recover"] = "Hồi 1 máu",
 	["yaowu:draw"] = "Lấy 1 lá.",
 
@@ -306,7 +306,7 @@ return {
 	["&super_yuanshu"] = "VIÊN THUẬT",
 	["illustrator:super_yuanshu"] = "NGÔ HẠO",
 	["super_yongsi"] = "DUNG TỨ",
-	[":super_yongsi"] = "Tọa Định Kỷ. Trong giai đoạn rút bài, bạn được rút 6 lá. \nĐầu giai đoạn xả bài, bạn phải bỏ 4 lá.",-- Tọa Định Kỷ. Trong giai đoạn rút bài, bạn được rút X lá. Đầu giai đoạn xả bài, bạn phải bỏ X lá.
+	[":super_yongsi"] = "Tọa Định Kỉ. Trong giai đoạn rút bài, bạn được rút 6 lá. \nĐầu giai đoạn xả bài, bạn phải bỏ 4 lá.",-- Tọa Định Kỉ. Trong giai đoạn rút bài, bạn được rút X lá. Đầu giai đoạn xả bài, bạn phải bỏ X lá.
 
 	["super_caoren"] = "TRẮC THÍ TÀO NHÂN",
 	["&super_caoren"] = "TÀO NHÂN",
@@ -321,7 +321,7 @@ return {
 	["gaodayihao"] = "CAO ĐẠT NHẤT HIỆU",
 	["illustrator:gaodayihao"] = "Ba Tát Tiểu Mã",
 	["gdjuejing"] = "Tuyệt Cảnh",
-	[":gdjuejing"] = "Tọa Định Kỷ.Vào lượt rút bài，bạn bỏ qua lượt rút bài。Khi số bài trên tay thay đổi，nếu không cầm 4 lá，bạn phải lấy hoặc bỏ để số bài về 4.",
+	[":gdjuejing"] = "Tọa Định Kỉ.Vào lượt rút bài，bạn bỏ qua lượt rút bài。Khi số bài trên tay thay đổi，nếu không cầm 4 lá，bạn phải lấy hoặc bỏ để số bài về 4.",
 	["#GdJuejing"] = "%from kích hoạt “%arg”，bỏ qua lượt rút bài",
 	["gdlonghun"] = "Long Hồn",
 	[":gdlonghun"] = "Bạn có thể dụng bài như sau: \nlá CƠ như ĐÀO, \nRÔ như SÁT, \nBÍCH như VÔ GIẢI KHẢ KÍCH, \nCHUỒN như TRÁNH. \nỞ giai đoạn chuẩn bị, nếu có người chơi trang bị THANH CÔNG KIẾM, bạn được quyền lấy nó. ",
