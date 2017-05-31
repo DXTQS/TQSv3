@@ -239,11 +239,12 @@ return {
 	[":xiaoji"] = "每当你失去一张装备区的装备牌后，你可以摸两张牌。",
 
 	-- 群雄
-	["#lvbu"] = "武的化身",
-	["lvbu"] = "吕布",
+	["#lvbu"] = "VŨ ĐÍCH HÓA THÂN",
+	["lvbu"] = "LỮ BỐ",
 	["illustrator:lvbu"] = "张帅",
-	["wushuang"] = "无双",
-	[":wushuang"] = "锁定技。每当你指定【杀】的目标后，目标角色须使用两张【闪】抵消此【杀】。你指定或成为【决斗】的目标后，与你【决斗】的角色每次须连续打出两张【杀】。",
+	["wushuang"] = "VÔ SONG",
+	[":wushuang"] = "Toả Định Kỹ, khi dùng 【Sát】 lên một người chơi bắt buộc mục tiêu phải dùng 2 thẻ 【Tránh】 nếu muốn vô hiệu thẻ 【Sát】 đó;" ..
+					"\nToả Định Kỹ, khi 【Quyết Đấu】 buộc mục tiêu phải dùng 2 thẻ 【Sát】 cho mỗi lượt.",
 	["@wushuang-slash-1"] = "%src 对你【决斗】，你须连续打出两张【杀】",
 	["@wushuang-slash-2"] = "%src 对你【决斗】，你须再打出一张【杀】",
 	["liyu"] = "利驭",
@@ -254,7 +255,8 @@ return {
 	["huatuo"] = "HOA ĐÀ",
 	["illustrator:huatuo"] = "琛·美弟奇",
 	["chuli"] = "TRỪ LỆ",
-	[":chuli"] = "Một lần trong lượt。Nếu bạn có 1 lá, bạn được chọn một người chơi mỗi nước, rồi bạn và những người chơi đó bỏ hết bài. Người chơi bào bỏ 1 lá BÍCH được rút lại 1 lá。",
+	[":chuli"] = "Một lần trong lượt。Nếu bạn có 1 lá, bạn được chọn một người chơi mỗi nước, rồi bạn và những người chơi đó bỏ hết bài."..
+				 "\nNgười chơi bào bỏ 1 lá BÍCH được rút lại 1 lá。",
 	["jijiu"] = "CẤP CỨU",
 	[":jijiu"] = "Ngoài lượt của bạn, bạn được dùng lá ĐỎ như lá ĐÀO。",
 
