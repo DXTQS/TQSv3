@@ -245,11 +245,11 @@ return {
 	["wushuang"] = "VÔ SONG",
 	[":wushuang"] = "Toả Định Kỹ, khi dùng 【Sát】 lên một người chơi bắt buộc mục tiêu phải dùng 2 thẻ 【Tránh】 nếu muốn vô hiệu thẻ 【Sát】 đó;" ..
 					"\nToả Định Kỹ, khi 【Quyết Đấu】 buộc mục tiêu phải dùng 2 thẻ 【Sát】 cho mỗi lượt.",
-	["@wushuang-slash-1"] = "%src 对你【决斗】，你须连续打出两张【杀】",
-	["@wushuang-slash-2"] = "%src 对你【决斗】，你须再打出一张【杀】",
-	["liyu"] = "利驭",
-	[":liyu"] = "每当你使用【杀】对一名其他角色造成伤害后，该角色可以令你获得其一张牌：若如此做，视为你对由该角色选择的另一名角色使用一张【决斗】。",
-	["@liyu"] = "请选择一名其他角色视为 %src 对其使用一张【决斗】",
+	["@wushuang-slash-1"] = "%src cùng bạn 【Quyết Đấu】, bạn phải bỏ 2 thẻ 【Sát】",
+	["@wushuang-slash-2"] = "%src cùng bạn 【Quyết Đấu】, hãy bỏ tiếp 1 thẻ 【Sát】",
+	["liyu"] = "LỢI NGỰ",
+	[":liyu"] = "Khi bạn gây sát thương lên người chơi khác, người đó có thể cho bạn một lá bài và chọn một người chơi khác, rồi bạn QUYẾT ĐẤU với người vừa được chọn。",--每当你使用【杀】对一名其他角色造成伤害后，该角色可以令你获得其一张牌：若如此做，视为你对由该角色选择的另一名角色使用一张【决斗】。
+	["@liyu"] = "Hãy chọn một người chơi để  %src QUYẾT ĐẤU",
 
 	["#huatuo"] = "THẦY Y",
 	["huatuo"] = "HOA ĐÀ",
