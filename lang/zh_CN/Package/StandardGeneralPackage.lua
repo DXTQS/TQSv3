@@ -102,20 +102,21 @@ return {
 	["zhangfei"] = "Trương Phi", --张飞
 	["illustrator:zhangfei"] = "SONGQIJIN",
 	["paoxiao"] = "Gào Thét", --咆哮
-	[":paoxiao"] = "出牌阶段，你使用【杀】无次数限制。",
-	["tishen"] = "替身",
-	[":tishen"] = "限定技。准备阶段开始时，若你的体力值小于上回合结束时的体力值，你可以回复至上回合结束时的体力值，然后你每以此法回复1点体力，你摸一张牌。",
+	[":paoxiao"] = "Ngoài lượt hành động, Có thể dùng 【Sát】 không hạn chế.", --出牌阶段，你使用【杀】无次数限制。
+	["tishen"] = "Thế Thân",
+	[":tishen"] = "Hạn Định Kĩ, Một lần duy nhất，bạn có thể lấy lại lương máu mà bạn đã mất ở lượt hành động trước nếu lượng máu hiện tại thấp hơn giới hạn máu," ..
+				  "và bạn được tăng 1 sát thương và rút 1 lá bài.", --限定技。准备阶段开始时，若你的体力值小于上回合结束时的体力值，你可以回复至上回合结束时的体力值，然后你每以此法回复1点体力，你摸一张牌。
 	["$TishenAnimate"] = "image=image/animate/tishen.png",
 
-	["#zhugeliang"] = "迟暮的丞相",
-	["zhugeliang"] = "诸葛亮",
-	["guanxing"] = "观星",
-	[":guanxing"] = "准备阶段开始时，你可以观看牌堆顶的X张牌，然后将任意数量的牌置于牌堆顶，将其余的牌置于牌堆底。（X为存活角色数且至多为5）",
-	["kongcheng"] = "空城",
-	[":kongcheng"] = "锁定技。若你没有手牌，你不能被选择为【杀】或【决斗】的目标。",
+	["#zhugeliang"] = "Trí Mộ Đích Thừa Tướng", --迟暮的丞相
+	["zhugeliang"] = "Gia Cát Lượng", --诸葛亮
+	["guanxing"] = "Quan Tinh", --观星
+	[":guanxing"] = "Đầu giai đoạn chuẩn bị, xem X lá trên đầu chồng bài (X là số người còn sống và tối đa là 5), sau đó sắp xếp tùy ý thứ tự và số lượng rồi đặt lên đầu chồng bài, những lá còn lại đặt dưới đáy chồng bài.", --准备阶段开始时，你可以观看牌堆顶的X张牌，然后将任意数量的牌置于牌堆顶，将其余的牌置于牌堆底。（X为存活角色数且至多为5）
+	["kongcheng"] = "Không Thành", --空城
+	[":kongcheng"] = "Tỏa Định Kỹ, khi không có bài trên tay, nếu là mục tiêu của lá 【Sát】 và 【Quyết Đấu】, vô hiệu hóa lá đó.", --锁定技。若你没有手牌，你不能被选择为【杀】或【决斗】的目标。
 	["#GuanxingResult"] = "%from 的“<font color=\"yellow\"><b>观星</b></font>”结果：%arg 上 %arg2 下",
-	["$GuanxingTop"] = "置于牌堆顶的牌：%card",
-	["$GuanxingBottom"] = "置于牌堆底的牌：%card",
+	["$GuanxingTop"] = "Bài nằm trên đầu chồng bài：%card",
+	["$GuanxingBottom"] = "Bài nằm dưới đáy chồng bài：%card",
 
 	["#zhaoyun"] = "虎威将军",
 	["zhaoyun"] = "赵云",
