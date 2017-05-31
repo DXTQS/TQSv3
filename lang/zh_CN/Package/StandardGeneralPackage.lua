@@ -80,7 +80,7 @@ return {
 	["liubei"] = "Lưu Bị", --刘备
 	["illustrator:liubei"] = "Mộc Mĩ Nhân", --木美人
 	["rende"] = "Nhân Đức", --仁德
-	[":rende"] = "Kỹ năng giai đoạn. bạn có thể chỉ định ít nhất 1 lá bài trên tay đem trao cho một người chơi khác. Nếu cho nhiều hơn 1 lá bạn được hồi 1 máu.", --阶段技。你可以将至少一张手牌任意分配给其他角色。每当你于本阶段内以此法给出的手牌首次达到两张或更多后，你回复1点体力。
+	[":rende"] = "Một lần trong lượt. bạn có thể chỉ định ít nhất 1 lá bài trên tay đem trao cho một người chơi khác. Nếu cho nhiều hơn 1 lá bạn được hồi 1 máu.", --阶段技。你可以将至少一张手牌任意分配给其他角色。每当你于本阶段内以此法给出的手牌首次达到两张或更多后，你回复1点体力。
 	["@rende-give"] = "Bạn có thể kích hoạt \"Nhân Đức\".", -- 你可以发动“仁德”
 	["~rende"] = "chon ít nhất 1 lá trên tay --> Chọn một người chơi khác --> Nhấn \"OK\".", --选择至少一张手牌→选择一名其他角色→点击确定
 	["jijiang"] = "Khích Tướng", --激将
@@ -166,12 +166,12 @@ return {
 	["$JianyanAnimate"] = "image=image/animate/jianyan.png",
 
 	-- 吴势力
-	["#sunquan"] = "年轻的贤君",
-	["sunquan"] = "孙权",
-	["zhiheng"] = "制衡",
-	[":zhiheng"] = "阶段技。你可以弃置至少一张牌：若如此做，你摸等量的牌。",
-	["jiuyuan"] = "救援",
-	[":jiuyuan"] = "主公技。锁定技。若你处于濒死状态，其他吴势力角色对你使用【桃】时，你回复的体力+1。",
+	["#sunquan"] = "Niên Khánh Đích Hiền Quân", --年轻的贤君
+	["sunquan"] = "Tôn Quyền", --孙权
+	["zhiheng"] = "Chế Hành", --制衡
+	[":zhiheng"] = "Một lần trong lượt. Có thể bỏ ít nhất 1 lá sau đó rút lá mới.", --阶段技。你可以弃置至少一张牌：若如此做，你摸等量的牌。
+	["jiuyuan"] = "Cứu Viện", --救援
+	[":jiuyuan"] = "Kỹ năng quân chủ. Tỏa Định Kỹ.", --主公技。锁定技。若你处于濒死状态，其他吴势力角色对你使用【桃】时，你回复的体力+1。
 	["#JiuyuanExtraRecover"] = "%from 的“%arg”被触发，将额外回复 <font color=\"yellow\"><b>1</b></font> 点体力",
 
 	["#ganning"] = "锦帆游侠",
