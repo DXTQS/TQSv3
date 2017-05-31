@@ -80,7 +80,7 @@ return {
 	["liubei"] = "Lưu Bị", --刘备
 	["illustrator:liubei"] = "Mộc Mĩ Nhân", --木美人
 	["rende"] = "Nhân Đức", --仁德
-	[":rende"] = "Một lần trong lượt. bạn có thể chỉ định ít nhất 1 lá bài trên tay đem trao cho một người chơi khác. Nếu cho nhiều hơn 1 lá bạn được hồi 1 máu.", --阶段技。你可以将至少一张手牌任意分配给其他角色。每当你于本阶段内以此法给出的手牌首次达到两张或更多后，你回复1点体力。
+	[":rende"] = "Giai Đoạn Kĩ. bạn có thể chỉ định ít nhất 1 lá bài trên tay đem trao cho một người chơi khác. Nếu cho nhiều hơn 1 lá bạn được hồi 1 máu.", --阶段技。你可以将至少一张手牌任意分配给其他角色。每当你于本阶段内以此法给出的手牌首次达到两张或更多后，你回复1点体力。
 	["@rende-give"] = "Bạn có thể kích hoạt \"Nhân Đức\".", -- 你可以发动“仁德”
 	["~rende"] = "chon ít nhất 1 lá trên tay --> Chọn một người chơi khác --> Nhấn \"OK\".", --选择至少一张手牌→选择一名其他角色→点击确定
 	["jijiang"] = "Khích Tướng", --激将
@@ -93,7 +93,7 @@ return {
 	["wusheng"] = "Võ Thánh", --武圣
 	[":wusheng"] = "Có thể dùng lá sắc Đỏ Như 【Sát】 phổ thông khi cần.", --你可以将一张红色牌当普通【杀】使用或打出。
 	["yijue"] = "Nghĩa Tuyệt", --义绝
-	[":yijue"] = "Kỹ năng giai đoạn. Bạn có thể chọn tỉ thí với một người chơi khác:" .. --阶段技。你可以与一名其他角色拼点：
+	[":yijue"] = "Giai Đoạn Kĩ. Bạn có thể chọn tỉ thí với một người chơi khác:" .. --阶段技。你可以与一名其他角色拼点：
 				 "Nếu bạn thắng, the other person cannot use any cards from their handor optional character abilities for the rest of the turn." .. --若你赢，该角色不能使用或打出手牌且其非锁定技无效，直到回合结束；
 				 "Nếu bạn thua, bạn có thể chọn một người chơi và cho người đó hồi phúc 1 máu.", --若你没赢，你可以令该角色回复1点体力。
 	["yijue:recover"] = "Chọn một người chơi để hồi phục 1 máu.", --令目标角色回复1点体力
@@ -156,7 +156,7 @@ return {
 	["zhuhai"] = "Tru Hại", --诛害
 	[":zhuhai"] = "nếu một người chơi khác bị nhận thiệt hại trong lượt của họ, bạn có thể gây sát thương lên người đó bằng lá 【Sát】 và không giới hạn tầm đánh", --一名其他角色的结束阶段开始时，若该角色本回合造成过伤害，你可以对其使用一张无距离限制的【杀】。
 	["qianxin"] = "Tiềm Tâm", --潜心
-	[":qianxin"] = "Giác Tỉnh Kỹ. 每当你造成伤害后，若你已受伤，你失去1点体力上限，然后获得“ 荐言 ”（阶段技。你可以选择一种牌的类别或颜色，然后你依次亮出牌堆顶的牌直到与你的选择相符，然后你令一名男性角色获得此牌，再将亮出的牌置入弃牌堆）。", --觉醒技。每当你造成伤害后，若你已受伤，你失去1点体力上限，然后获得“荐言”（阶段技。你可以选择一种牌的类别或颜色，然后你依次亮出牌堆顶的牌直到与你的选择相符，然后你令一名男性角色获得此牌，再将亮出的牌置入弃牌堆）。
+	[":qianxin"] = "Giai Đoạn Kĩ. 每当你造成伤害后，若你已受伤，你失去1点体力上限，然后获得“ 荐言 ”（阶段技。你可以选择一种牌的类别或颜色，然后你依次亮出牌堆顶的牌直到与你的选择相符，然后你令一名男性角色获得此牌，再将亮出的牌置入弃牌堆）。", --觉醒技。每当你造成伤害后，若你已受伤，你失去1点体力上限，然后获得“荐言”（阶段技。你可以选择一种牌的类别或颜色，然后你依次亮出牌堆顶的牌直到与你的选择相符，然后你令一名男性角色获得此牌，再将亮出的牌置入弃牌堆）。
 	["jianyan"] = "Tiến Ngôn", --荐言
 	[":jianyan"] = "Một lần trong lượt. bạn có thể chon màu và chất sau đó rút trên chồng bài đến khi nào có được lá bạn chọn rồi cho lá này cho một người chơi khác giới. những lá rút trước đó bỏ vào chồng bài bỏ.",
 	["@zhuhai-slash"] = "Bạn có thể phát động \"Tru Hại\" lên %dest để sử dụng lá 【Sát】",
@@ -169,7 +169,7 @@ return {
 	["#sunquan"] = "Niên Khánh Đích Hiền Quân", --年轻的贤君
 	["sunquan"] = "Tôn Quyền", --孙权
 	["zhiheng"] = "Chế Hành", --制衡
-	[":zhiheng"] = "Một lần trong lượt. Có thể bỏ ít nhất 1 lá sau đó rút lá mới.", --阶段技。你可以弃置至少一张牌：若如此做，你摸等量的牌。
+	[":zhiheng"] = "Giai Đoạn Kĩ. Có thể bỏ ít nhất 1 lá sau đó rút lá mới.", --阶段技。你可以弃置至少一张牌：若如此做，你摸等量的牌。
 	["jiuyuan"] = "Cứu Viện", --救援
 	[":jiuyuan"] = "Kỹ năng quân chủ. Tỏa Định Kỹ. Trong trạng thái hấp hối, người chơi cùng phe khác sử dụng 【Đào】 để cứu, người đó được nhận thêm +1 sát thuơng.", --主公技。锁定技。若你处于濒死状态，其他吴势力角色对你使用【桃】时，你回复的体力+1。
 	["#JiuyuanExtraRecover"] = "%from Đã phát động “%arg”，được cộng thêm <font color=\"yellow\"><b>1</b></font> sát thương.", --%from 的“%arg”被触发，将额外回复 <font color=\"yellow\"><b>1</b></font> 点体力
@@ -200,7 +200,7 @@ return {
 	["yingzi"] = "Anh Tư", -- 英姿
 	[":yingzi"] = "Tỏa Định Kỹ. Giai đoạn rút bài, được rút thêm một lá. Giới hạn trữ bài bằng giới hạn máu.",
 	["fanjian"] = "Phản Gián", --反间
-	[":fanjian"] = "Một lần trong lượt. Chọn một chất trên tay và đưa người chơi khác, người đó phải chọn: hoặc là mất một máu hoặc cho xem tất cả bài trên tay và bỏ các thẻ cùng chất với thẻ bạn đưa.", --阶段技。你可以选择一种花色并交给一名其他角色一张该花色的手牌，然后该角色选择一项：展示所有手牌并弃置所有该花色的牌，或失去1点体力。
+	[":fanjian"] = "Giai Đoạn Kĩ. Chọn một chất trên tay và đưa người chơi khác, người đó phải chọn: hoặc là mất một máu hoặc cho xem tất cả bài trên tay và bỏ các thẻ cùng chất với thẻ bạn đưa.", --阶段技。你可以选择一种花色并交给一名其他角色一张该花色的手牌，然后该角色选择一项：展示所有手牌并弃置所有该花色的牌，或失去1点体力。
 	["fanjian_discard:prompt"] = "Hiện tất cả bài trên tay và chọn bỏ %arg ",
 
 	["#huanggai"] = "KHINH THÂN VỊ QUỐC",

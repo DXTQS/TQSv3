@@ -11,11 +11,11 @@ CommonTranslationTable = {
 	["offensive"] = "先手",
 	["defensive"] = "后手",
 
-	["compulsoryskill"] = "锁定技。",
-	["limitedskill"] = "Hạn Định Kỹ.",
-	["wakeskill"] = "觉醒技。",
-	["lordskill"] = "主公技。",
-	["oppphskill"] = "阶段技。",
+	["compulsoryskill"] = "Tỏa Định Kĩ.", --锁定技。
+	["limitedskill"] = "Hạn Định Kĩ.", --限定技。
+	["wakeskill"] = "Giác Tỉnh Kĩ.", --觉醒技。
+	["lordskill"] = "Chủ Công Kĩ.", --主公技。
+	["oppphskill"] = "Giai Đoạn Kĩ.", --阶段技。
 
 	["Pairs"] = "双将",
 	["XMode"] = "血战到底",
