@@ -118,15 +118,17 @@ return {
 	["$GuanxingTop"] = "Bài nằm trên đầu chồng bài：%card",
 	["$GuanxingBottom"] = "Bài nằm dưới đáy chồng bài：%card",
 
-	["#zhaoyun"] = "虎威将军",
+	["#zhaoyun"] = "Hổ Uy Tướng Quân", --虎威将军
 	["zhaoyun"] = "Triệu Vân", --赵云
 	["illustrator:zhaoyun"] = "DH",
-	["longdan"] = "龙胆",
-	[":longdan"] = "你可以将一张【杀】当【闪】使用或打出，或将一张【闪】当普通【杀】使用或打出。",
-	["yajiao"] = "涯角",
-	[":yajiao"] = "每当你于回合外使用或打出手牌时，你可以展示牌堆顶的一张牌：若此牌与你使用或打出的手牌类别相同，你可以令一名角色获得之，否则你可以将之置入弃牌堆。",
-	["@yajiao-give"] = "你可以令一名角色获得 %arg[%arg2]",
-	["yajiao:throw"] = "置入弃牌堆",
+	["longdan"] = "Long Đảm", --龙胆
+	[":longdan"] = "Khi cần, có thể dùng 【Sát】 như 【Ngự】 và ngược lại.", --你可以将一张【杀】当【闪】使用或打出，或将一张【闪】当普通【杀】使用或打出。
+	["yajiao"] = "Nhai Giác", --涯角 
+	[":yajiao"] = "Bất cứ khi nào bạn sử dụng bài ngoài lượt, bạn có thể lật một lá trên chồng bài." ..
+				  "Nếu là đó cùng loại với lá vừa sử dụng, bạn có thể cho lá đó cho người khác bao gồm bản thân." ..
+				  "Nếu lá đó khác loại với lá vừa sử dụng, bạn có thể hủy lá đó hoặc thay thế lá khác.", --每当你于回合外使用或打出手牌时，你可以展示牌堆顶的一张牌：若此牌与你使用或打出的手牌类别相同，你可以令一名角色获得之，否则你可以将之置入弃牌堆。
+	["@yajiao-give"] = "Chọn một người để cho bài %arg[%arg2]",
+	["yajiao:throw"] = "Đặt vào chồng bài bỏ",
 
 	["#machao"] = "一骑当千",
 	["machao"] = "马超",
