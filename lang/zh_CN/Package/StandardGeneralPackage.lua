@@ -171,37 +171,37 @@ return {
 	["zhiheng"] = "Chế Hành", --制衡
 	[":zhiheng"] = "Một lần trong lượt. Có thể bỏ ít nhất 1 lá sau đó rút lá mới.", --阶段技。你可以弃置至少一张牌：若如此做，你摸等量的牌。
 	["jiuyuan"] = "Cứu Viện", --救援
-	[":jiuyuan"] = "Kỹ năng quân chủ. Tỏa Định Kỹ.", --主公技。锁定技。若你处于濒死状态，其他吴势力角色对你使用【桃】时，你回复的体力+1。
-	["#JiuyuanExtraRecover"] = "%from 的“%arg”被触发，将额外回复 <font color=\"yellow\"><b>1</b></font> 点体力",
+	[":jiuyuan"] = "Kỹ năng quân chủ. Tỏa Định Kỹ. Trong trạng thái hấp hối, người chơi cùng phe khác sử dụng 【Đào】 để cứu, người đó được nhận thêm +1 sát thuơng.", --主公技。锁定技。若你处于濒死状态，其他吴势力角色对你使用【桃】时，你回复的体力+1。
+	["#JiuyuanExtraRecover"] = "%from Đã phát động “%arg”，được cộng thêm <font color=\"yellow\"><b>1</b></font> sát thương.", --%from 的“%arg”被触发，将额外回复 <font color=\"yellow\"><b>1</b></font> 点体力
 
-	["#ganning"] = "锦帆游侠",
-	["ganning"] = "甘宁",
-	["illustrator:ganning"] = "巴萨小马",
-	["qixi"] = "奇袭",
-	[":qixi"] = "你可以将一张黑色牌当【过河拆桥】使用。",
-	["fenwei"] = "奋威",
-	[":fenwei"] = "限定技。每当一名角色的非延时锦囊牌指定了至少两名目标时，你可以令此牌对至少一名目标角色无效。",
-	["@fenwei-card"] = "你可以发动“奋威”",
-	["~fenwei"] = "选则任意名角色→点击确定",
+	["#ganning"] = "Cẩm Phàm Du Hiệp", --锦帆游侠
+	["ganning"] = "Cam Ninh", --甘宁
+	["illustrator:ganning"] = "Tam Tát Tiểu Mã", --巴萨小马
+	["qixi"] = "Kì Tập", --奇袭 
+	[":qixi"] = "Sử dụng thẻ sắc Đen như 【Qua Sông Đoạn Cầu】", --你可以将一张黑色牌当【过河拆桥】使用。
+	["fenwei"] = "Phấn Uy", --奋威
+	[":fenwei"] = "Hạn Định Kỹ. Khi người chơi khác sử dụng thẻ công cụ 2 mục tiêu trởi lên, bạn có thể ngăn chăn thẻ đó.", --限定技。每当一名角色的非延时锦囊牌指定了至少两名目标时，你可以令此牌对至少一名目标角色无效。
+	["@fenwei-card"] = "Bạn có thể kích phát \"Phấn Uy\".", --你可以发动“奋威
+	["~fenwei"] = "Chọn nhân vật bất kỳ → Nhấn \"OK\".", --选则任意名角色→点击确定
 	["$FenweiAnimate"] = "image=image/animate/fenwei.png",
 
-	["#lvmeng"] = "士别三日",
-	["lvmeng"] = "吕蒙",
-	["illustrator:lvmeng"] = "樱花闪乱",
-	["keji"] = "克己",
-	[":keji"] = "若你未于出牌阶段内使用或打出【杀】，你可以跳过弃牌阶段。",
-	["qinxue"] = "勤学",
-	[":qinxue"] = "觉醒技。准备阶段开始时，若你的手牌数比体力值多3（七人及以上游戏为2）或更多，你失去1点体力上限，然后获得“攻心”。",
+	["#lvmeng"] = "Sĩ Biệt Tam Nhật", --士别三日
+	["lvmeng"] = "Lữ Mông", --吕蒙
+	["illustrator:lvmeng"] = "Anh Hoa Thiểm Loạn", --樱花闪乱
+	["keji"] = "Khắc Kỉ", --克己
+	[":keji"] = "Nếu không dùng lá 【Sát】 trong lượt，Có thể bỏ qua giai đoạn bỏ bài.", --若你未于出牌阶段内使用或打出【杀】，你可以跳过弃牌阶段。
+	["qinxue"] = "Cần Học", --勤学
+	[":qinxue"] = "Giác Tỉnh Kỹ. Đầu giai đoạn chuẩn bị, Nếu số bài trên tay nhiều hơn số lượng máu là 3 (sẽ là 2 nếu có từ 7 người chơi trở lên) bạn nhận được kỹ năng “Công Tâm”.", --觉醒技。准备阶段开始时，若你的手牌数比体力值多3（七人及以上游戏为2）或更多，你失去1点体力上限，然后获得“攻心”。
 	["$QinxueAnimate"] = "image=image/animate/qinxue.png",
-	["#QinxueWake"] = "%from 手牌数比体力值多 %arg，触发“%arg2”觉醒",
+	["#QinxueWake"] = "%from Có số bài nhiều hơn số máu là %arg， Kích hoạt kỹ năng “%arg2”",
 
-	["#zhouyu"] = "大都督",
-	["zhouyu"] = "周瑜",
-	["yingzi"] = "英姿",
-	[":yingzi"] = "锁定技。摸牌阶段，你额外摸一张牌。你的手牌上限等于你的体力上限。",
-	["fanjian"] = "反间",
-	[":fanjian"] = "阶段技。你可以选择一种花色并交给一名其他角色一张该花色的手牌，然后该角色选择一项：展示所有手牌并弃置所有该花色的牌，或失去1点体力。",
-	["fanjian_discard:prompt"] = "你可以展示所有手牌并弃置所有 %arg 牌",
+	["#zhouyu"] = "Đại Đô Đốc", --大都督
+	["zhouyu"] = "Chu Du", --周瑜
+	["yingzi"] = "Anh Tư", -- 英姿
+	[":yingzi"] = "Tỏa Định Kỹ. Giai đoạn rút bài, được rút thêm một lá. Giới hạn trữ bài bằng giới hạn máu.",
+	["fanjian"] = "Phản Gián", --反间
+	[":fanjian"] = "Một lần trong lượt. Chọn một chất trên tay và đưa người chơi khác, người đó phải chọn: hoặc là mất một máu hoặc cho xem tất cả bài trên tay và bỏ các thẻ cùng chất với thẻ bạn đưa.", --阶段技。你可以选择一种花色并交给一名其他角色一张该花色的手牌，然后该角色选择一项：展示所有手牌并弃置所有该花色的牌，或失去1点体力。
+	["fanjian_discard:prompt"] = "Hiện tất cả bài trên tay và chọn bỏ %arg ",
 
 	["#huanggai"] = "轻身为国",
 	["huanggai"] = "黄盖",
