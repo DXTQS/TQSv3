@@ -229,7 +229,7 @@ return {
 	["liuli"] = "LƯU LI",
 	[":liuli"] = "Khi là mục tiêu của 【Sát】, bạn có thể bỏ 1 thẻ bài để chuyển đòn thẻ 【Sát】 sang một người chơi trong tầm đánh của mình.",
 	["~liuli"] = "Chọn 1 lá → chọn 1 người chơi → Bấm OK",
-	["@liuli"] = "%src 对你使用【杀】，你可以弃置一张牌发动“流离”",
+	["@liuli"] = "%src sử dụng ”",
 
 	["#sunshangxiang"] = "CUNG YÊU CƠ",
 	["sunshangxiang"] = "TÔN THƯỢNG HƯƠNG",
