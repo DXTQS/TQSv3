@@ -258,10 +258,10 @@ return {
 	["jijiu"] = "急救",
 	[":jijiu"] = "你的回合外，你可以将一张红色牌当【桃】使用。",
 
-	["#diaochan"] = "TUYỆT THẾ ĐÍCH VŨ CƠ",
+	["#diaochan"] = "TUYỆT THẾ VŨ CƠ",
 	["diaochan"] = "ĐIÊU THUYỀN",
 	["illustrator:diaochan"] = "MỘC MĨ NHÂN",
-	["lijian"] = "离间",
+	["lijian"] = "Li Gián",
 	[":lijian"] = "阶段技。你可以弃置一张牌并选择两名男性角色：若如此做，视为其中一名角色对另一名角色使用一张【决斗】。",
 	["biyue"] = "闭月",
 	[":biyue"] = "结束阶段开始时，你可以摸一张牌。",
