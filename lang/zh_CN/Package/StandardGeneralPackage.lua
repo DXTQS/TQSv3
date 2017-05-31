@@ -329,8 +329,8 @@ return {
 	["&sujiang"] = "Binh Sĩ",--士兵
 	["illustrator:sujiang"] = "Mộc Mĩ Nhân",
 	["#sujiangf"] = "玉女",
-	["sujiangf"] = "士兵(女)",
-	["&sujiangf"] = "士兵",
-	["illustrator:sujiangf"] = "木美人",
+	["sujiangf"] = "Binh Sĩ(女)",
+	["&sujiangf"] = "Binh Sĩ",
+	["illustrator:sujiangf"] = "Mộc Mĩ Nhân",
 }
 
