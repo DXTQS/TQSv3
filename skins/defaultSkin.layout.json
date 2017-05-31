@@ -1,7 +1,7 @@
 {
 "common":
 {
-    "cardNormalWidth": 93,
+    "cardNormalWidth": 130,
     "cardNormalHeight": 130,
     "cardMainArea": [0, 0, 93, 130],
     "cardFrameArea": [-5, -5, 98, 135],
@@ -9,9 +9,9 @@
     "cardNumberArea": [-2, -1, 27, 28],
     "cardFootnoteArea": [5, 75, 85, 50],
     "cardAvatarArea": [26, 67, 40, 40],
-    "cardFootnoteFont": ["SimSun", [12, 12, 1], 0, [228, 213, 160, 255], 1, 10, [0, 0], [20, 20, 20, 255]],
+    "cardFootnoteFont": ["HelveticaWorld-Regular", [15, 15, 3], 0, [255, 255, 255, 255], 1, 10, [0, 0], [20, 20, 20, 255]],
     "promptInfoSize": [900, 110],
-    "promptInfoFont": ["SimHei", [20, 20, 3], 0, [255, 255, 255, 255], 5, 20, [0, 0], [7, 50, 78, 255]],
+    "promptInfoFont": ["HelveticaWorld-Regular", [20, 20, 3], 0, [255, 255, 255, 255], 5, 20, [0, 0], [7, 50, 78, 255]],
     "chooseGeneralBoxSwitchIconSizeThreshold": 12,
     "chooseGeneralBoxSwitchIconEachRow": 6,
     "chooseGeneralBoxSwitchIconEachRowForTooManyGenerals": 7,
@@ -91,7 +91,7 @@
     "secondaryAvatarArea": [20, 65, 51, 51],
     //"circleArea": [4, 27, 148, 89],
     "avatarNameArea": [1, 24, 40, 60],
-    "avatarNameFont": ["@SimLi", [18, 18, 0], 0, [255, 255, 255, 255], 4, 10, [0, 0], [50, 50, 50, 200]],
+    "avatarNameFont": ["HelveticaWorld-Regular", [18, 18, 0], 0, [255, 255, 255, 255], 4, 10, [0, 0], [50, 50, 50, 200]],
     "smallAvatarNameArea": [25, 25, 30, 45],
     "smallAvatarNameFont": ["@SimLi", [14, 14, 0], 0, [255, 255, 255, 255], 2, 5, [0, 0], [50, 50, 50, 200]],
     "kingdomIconArea": [0, -1, 28, 28],
