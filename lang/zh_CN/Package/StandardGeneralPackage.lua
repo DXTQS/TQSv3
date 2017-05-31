@@ -272,18 +272,18 @@ return {
 	["tongji"] = "同疾",
 	[":tongji"] = "锁定技。若你的手牌数大于你的体力值，且你在一名角色的攻击范围内，则其他角色不能被选择为该角色的【杀】的目标。",
 
-	["#st_huaxiong"] = "飞扬跋扈",
-	["st_huaxiong"] = "华雄",
-	["illustrator:st_huaxiong"] = "地狱许",
-	["yaowu"] = "耀武",
-	[":yaowu"] = "锁定技。每当你受到红色【杀】的伤害时，伤害来源选择一项：回复1点体力，或摸一张牌。",
-	["yaowu:recover"] = "回复1点体力",
-	["yaowu:draw"] = "摸一张牌",
+	["#st_huaxiong"] = "PHI DƯƠNG BẠT HỔ",
+	["st_huaxiong"] = "HOA HÙNG",
+	["illustrator:st_huaxiong"] = "ĐỊA NGỤC HỔ",
+	["yaowu"] = "DIỆU VŨ",
+	[":yaowu"] = "Tọa Định Kỷ. Khi bạn nhật sát thương từ lá SÁT đỏ, nguồn sát thương được chọn: hồi 1 máu, hoặc rút 1 lá.",
+	["yaowu:recover"] = "Hồi 1 máu",
+	["yaowu:draw"] = "Lấy 1 lá.",
 
-	["st_gongsunzan"] = "公孙瓒",
-	["illustrator:st_gongsunzan"] = "Vincent",
-	["qiaomeng"] = "趫猛",
-	[":qiaomeng"] = "每当你使用黑色【杀】对一名角色造成伤害后，你可以弃置该角色装备区的一张牌：若此牌为坐骑牌，此牌置入弃牌堆时你获得之。",
+	["st_gongsunzan"] = "CÔNG TÔN TOẢN",--公孙瓒
+	["illustrator:st_gongsunzan"] = "CÔNG TÔN TOẢN",
+	["qiaomeng"] = "CHIÊU MÃNH",
+	[":qiaomeng"] = "Khi bạn gây sát thương thành công lên một người chơi khác bằng SÁT đen, bạn có thể bỏ một lá trong khu vực của người chơi đó: Nếu lá đó là CHIẾN MÃ, bạn nhận được lá đó.",--每当你使用黑色【杀】对一名角色造成伤害后，你可以弃置该角色装备区的一张牌：若此牌为坐骑牌，此牌置入弃牌堆时你获得之。
 
 	-- Test
 	["test"] = "TRẮC THÍ",
