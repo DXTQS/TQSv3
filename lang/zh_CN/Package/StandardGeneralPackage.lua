@@ -119,7 +119,7 @@ return {
 	["$GuanxingBottom"] = "Bài nằm dưới đáy chồng bài：%card",
 
 	["#zhaoyun"] = "虎威将军",
-	["zhaoyun"] = "赵云",
+	["zhaoyun"] = "Triệu Vân", --赵云
 	["illustrator:zhaoyun"] = "DH",
 	["longdan"] = "龙胆",
 	[":longdan"] = "你可以将一张【杀】当【闪】使用或打出，或将一张【闪】当普通【杀】使用或打出。",
