@@ -231,12 +231,12 @@ return {
 	["~liuli"] = "选择一张牌→选择一名其他角色→点击确定",
 	["@liuli"] = "%src 对你使用【杀】，你可以弃置一张牌发动“流离”",
 
-	["#sunshangxiang"] = "弓腰姬",
-	["sunshangxiang"] = "孙尚香",
-	["jieyin"] = "结姻",
-	[":jieyin"] = "阶段技。你可以弃置两张手牌并选择一名已受伤的男性角色：若如此做，你和该角色各回复1点体力。",
-	["xiaoji"] = "枭姬",
-	[":xiaoji"] = "每当你失去一张装备区的装备牌后，你可以摸两张牌。",
+	["#sunshangxiang"] = "CUNG YÊU CƠ",
+	["sunshangxiang"] = "TÔN THƯỢNG HƯƠNG",
+	["jieyin"] = "KẾT NHÂN",
+	[":jieyin"] = "Một lần trong lượt。Bạn có thể bỏ 2 lá và chọn một người chơi nam đã mất máu: rồi bạn và người đó được hồi 1 máu。",
+	["xiaoji"] = "KIÊU CƠ",
+	[":xiaoji"] = "Khi bạn bị mất thẻ trang bị trong khu trang bị, bạn được rút 2 lá。",
 
 	-- 群雄
 	["#lvbu"] = "VŨ ĐÍCH HÓA THÂN",
