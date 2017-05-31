@@ -313,26 +313,26 @@ return {
 	["super_offensive_distance"] = "距离-X",
 	["super_defensive_distance"] = "距离+X",
 
-	["#gaodayihao"] = "神威如龙",
-	["gaodayihao"] = "高达一号",
-	["illustrator:gaodayihao"] = "巴萨小马",
-	["gdjuejing"] = "绝境",
-	[":gdjuejing"] = "锁定技。摸牌阶段，你不摸牌。每当你的手牌数变化后，若你的手牌数不为4，你须将手牌补至或弃置至四张。",
-	["#GdJuejing"] = "%from 的“%arg”被触发，摸牌阶段不摸牌",
-	["gdlonghun"] = "龙魂",
-	[":gdlonghun"] = "你可以将一张牌按以下规则使用或打出：红桃当【桃】；方块当火【杀】；黑桃当【无懈可击】；梅花当【闪】。准备阶段开始时，若其他角色的装备区内有【青釭剑】，你可以获得之。",
+	["#gaodayihao"] = "Thần Uy Như Long",
+	["gaodayihao"] = "Cao Đạt Nhất Hiệu",
+	["illustrator:gaodayihao"] = "Ba Tát Tiểu Mã",
+	["gdjuejing"] = "Tuyệt Cảnh",
+	[":gdjuejing"] = "Tọa Định Kỷ.Vào lượt rút bài，bạn bỏ qua lượt rút bài。Khi số bài trên tay thay đổi，nếu không cầm 4 lá，bạn phải lấy hoặc bỏ để số bài về 4.",
+	["#GdJuejing"] = "%from kích hoạt “%arg”，bỏ qua lượt rút bài",
+	["gdlonghun"] = "Long Hồn",
+	[":gdlonghun"] = "Bạn có thể dụng bài như sau: lá CƠ như ĐÀO, RÔ như SÁT, BÍCH như VÔ GIẢI KHẢ KÍCH, CHUỒN như TRÁNH. Ở giai đoạn chuẩn bị, nếu có người chơi trang bị THANH CÔNG KIẾM, bạn được quyền lấy nó.",
 
-	["nobenghuai_dongzhuo"] = "无崩董卓",
-	["&nobenghuai_dongzhuo"] = "董卓",
-	["illustrator:nobenghuai_dongzhuo"] = "小冷",
+	["nobenghuai_dongzhuo"] = "Vô Băng Đổng Trác",
+	["&nobenghuai_dongzhuo"] = "Đổng Trác",
+	["illustrator:nobenghuai_dongzhuo"] = "Tiểu Lãnh",
 
 	["#sujiang"] = "Kim Đồng",--金童
 	["sujiang"] = "Binh Sĩ(Nam)",
 	["&sujiang"] = "Binh Sĩ",--士兵
 	["illustrator:sujiang"] = "Mộc Mĩ Nhân",
-	["#sujiangf"] = "玉女",
-	["sujiangf"] = "士兵(女)",
-	["&sujiangf"] = "士兵",
-	["illustrator:sujiangf"] = "木美人",
+	["#sujiangf"] = "Ngọc Nữ",
+	["sujiangf"] = "Binh Sĩ(Nữ)",
+	["&sujiangf"] = "Binh Sĩ",
+	["illustrator:sujiangf"] = "Mộc Mĩ Nhân",
 }
 
