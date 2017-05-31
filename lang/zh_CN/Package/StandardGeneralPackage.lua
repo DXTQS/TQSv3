@@ -38,8 +38,8 @@ return {
 	["zhangliao"] = "Trương Liêu", --张辽
 	["illustrator:zhangliao"] = "Trương Suất",
 	["tuxi"] = "Tập Kích", --突袭
-	[":tuxi"] = "Trong lượt rút bài, có thể bỏ qua lượt rút bài và chọn 2 người chơi có bài trên tay, lấy mỗi người một lá bài.", --摸牌阶段，你可以少摸至少一张牌并选择等量的有手牌的手牌不少于你的其他角色：若如此做，你依次获得这些角色各一张手牌。
-	["@tuxi-card"] = "Bạn có thể phát động \"Tập Kích\" của %arg từ người chơi khác",
+	[":tuxi"] = "[Tập Kích]: Trong lượt rút bài, có thể bỏ qua lượt rút bài \nvà chọn 2 người chơi có bài trên tay, lấy mỗi người một lá bài.", --摸牌阶段，你可以少摸至少一张牌并选择等量的有手牌的手牌不少于你的其他角色：若如此做，你依次获得这些角色各一张手牌。
+	["@tuxi-card"] = "Bạn có thể phát động \"Tập Kích\" lên %arg người chơi khác", --arg số lượng.
 	["~tuxi"] = "Chọn 1 đến 2 người chơi rồi nhấn \"OK\".", --选择若干名其他角色→点击确定
 
 	["#guojia"] = "Tảo Chung Đích Tiên Tri",
