@@ -80,7 +80,7 @@ return {
 	["liubei"] = "Lưu Bị", --刘备
 	["illustrator:liubei"] = "Mộc Mĩ Nhân", --木美人
 	["rende"] = "Nhân Đức", --仁德
-	[":rende"] = "Một lần trong lượt. bạn có thể chỉ định ít nhất 1 lá bài trên tay đem trao cho một người chơi khác. Nếu cho nhiều hơn 1 lá bạn được hồi 1 máu.", --阶段技。你可以将至少一张手牌任意分配给其他角色。每当你于本阶段内以此法给出的手牌首次达到两张或更多后，你回复1点体力。
+	[":rende"] = "Giai Đoạn Kĩ. bạn có thể chỉ định ít nhất 1 lá bài trên tay đem trao cho một người chơi khác. Nếu cho nhiều hơn 1 lá bạn được hồi 1 máu.", --阶段技。你可以将至少一张手牌任意分配给其他角色。每当你于本阶段内以此法给出的手牌首次达到两张或更多后，你回复1点体力。
 	["@rende-give"] = "Bạn có thể kích hoạt \"Nhân Đức\".", -- 你可以发动“仁德”
 	["~rende"] = "chon ít nhất 1 lá trên tay --> Chọn một người chơi khác --> Nhấn \"OK\".", --选择至少一张手牌→选择一名其他角色→点击确定
 	["jijiang"] = "Khích Tướng", --激将
@@ -158,7 +158,7 @@ return {
 	["qianxin"] = "Tiềm Tâm", --潜心
 	[":qianxin"] = "Giác Tỉnh Kỹ. 每当你造成伤害后，若你已受伤，你失去1点体力上限，然后获得“ 荐言 ”（阶段技。你可以选择一种牌的类别或颜色，然后你依次亮出牌堆顶的牌直到与你的选择相符，然后你令一名男性角色获得此牌，再将亮出的牌置入弃牌堆）。", --觉醒技。每当你造成伤害后，若你已受伤，你失去1点体力上限，然后获得“荐言”（阶段技。你可以选择一种牌的类别或颜色，然后你依次亮出牌堆顶的牌直到与你的选择相符，然后你令一名男性角色获得此牌，再将亮出的牌置入弃牌堆）。
 	["jianyan"] = "Tiến Ngôn", --荐言
-	[":jianyan"] = "Một lần trong lượt. bạn có thể chon màu và chất sau đó rút trên chồng bài đến khi nào có được lá bạn chọn rồi cho lá này cho một người chơi khác giới. những lá rút trước đó bỏ vào chồng bài bỏ.",
+	[":jianyan"] = "Giai Đoạn Kĩ. bạn có thể chon màu và chất sau đó rút trên chồng bài đến khi nào có được lá bạn chọn rồi cho lá này cho một người chơi khác giới. những lá rút trước đó bỏ vào chồng bài bỏ.",
 	["@zhuhai-slash"] = "Bạn có thể phát động \"Tru Hại\" lên %dest để sử dụng lá 【Sát】",
 	["@jianyan-give"] = "Chọn một người khác giới để nhận %arg[%arg2]",
 	["#QianxinWake"] = "%from 已受伤，触发“%arg”觉醒",
@@ -169,7 +169,7 @@ return {
 	["#sunquan"] = "Niên Khánh Đích Hiền Quân", --年轻的贤君
 	["sunquan"] = "Tôn Quyền", --孙权
 	["zhiheng"] = "Chế Hành", --制衡
-	[":zhiheng"] = "Một lần trong lượt. Có thể bỏ ít nhất 1 lá sau đó rút lá mới.", --阶段技。你可以弃置至少一张牌：若如此做，你摸等量的牌。
+	[":zhiheng"] = "Giai Đoạn Kĩ. Có thể bỏ ít nhất 1 lá sau đó rút lá mới.", --阶段技。你可以弃置至少一张牌：若如此做，你摸等量的牌。
 	["jiuyuan"] = "Cứu Viện", --救援
 	[":jiuyuan"] = "Kỹ năng quân chủ. Tỏa Định Kỹ. Trong trạng thái hấp hối, người chơi cùng phe khác sử dụng 【Đào】 để cứu, người đó được nhận thêm +1 sát thuơng.", --主公技。锁定技。若你处于濒死状态，其他吴势力角色对你使用【桃】时，你回复的体力+1。
 	["#JiuyuanExtraRecover"] = "%from Đã phát động “%arg”，được cộng thêm <font color=\"yellow\"><b>1</b></font> sát thương.", --%from 的“%arg”被触发，将额外回复 <font color=\"yellow\"><b>1</b></font> 点体力
@@ -200,14 +200,14 @@ return {
 	["yingzi"] = "Anh Tư", -- 英姿
 	[":yingzi"] = "Tỏa Định Kỹ. Giai đoạn rút bài, được rút thêm một lá. Giới hạn trữ bài bằng giới hạn máu.",
 	["fanjian"] = "Phản Gián", --反间
-	[":fanjian"] = "Một lần trong lượt. Chọn một chất trên tay và đưa người chơi khác, người đó phải chọn: hoặc là mất một máu hoặc cho xem tất cả bài trên tay và bỏ các thẻ cùng chất với thẻ bạn đưa.", --阶段技。你可以选择一种花色并交给一名其他角色一张该花色的手牌，然后该角色选择一项：展示所有手牌并弃置所有该花色的牌，或失去1点体力。
+	[":fanjian"] = "Giai Đoạn Kĩ. Chọn một chất trên tay và đưa người chơi khác, người đó phải chọn: hoặc là mất một máu hoặc cho xem tất cả bài trên tay và bỏ các thẻ cùng chất với thẻ bạn đưa.", --阶段技。你可以选择一种花色并交给一名其他角色一张该花色的手牌，然后该角色选择一项：展示所有手牌并弃置所有该花色的牌，或失去1点体力。
 	["fanjian_discard:prompt"] = "Hiện tất cả bài trên tay và chọn bỏ %arg ",
 
 	["#huanggai"] = "KHINH THÂN VỊ QUỐC",
 	["huanggai"] = "HOÀNG CÁI",
 	["illustrator:huanggai"] = "G.G.G.",
 	["kurou"] = "KHỔ NHỤC",
-	[":kurou"] = "Một lần trong lượt. Bạn có thể bỏ 1 lá bài rồi mất 1 máu.",
+	[":kurou"] = "Giai Đoạn Kĩ. Bạn có thể bỏ 1 lá bài rồi mất 1 máu.",
 	["zhaxiang"] = "TRÁ HÀNG",
 	[":zhaxiang"] = "Tọa Định Kỉ。Khi bạn bị mất một máu, nếu đang trong lượt của bạn, bạn được dùng thêm 1 lá SÁT, và nếu dùng lá SÁT đỏ sẽ không giới hạn tầm và không thể TRÁNH。",
 
@@ -225,7 +225,7 @@ return {
 	["daqiao"] = "ĐẠI KIỀU",
 	["illustrator:daqiao"] = "DH",
 	["guose"] = "QUỐC SẮC",
-	[":guose"] = "Một lần trong lượt。 Bạn được dùng lá RÔ như LẠC BẤT TƯ THỤC, và có thể bỏ lá RÔ coi như LẠC BẤT TƯ THỤC đó để lấy 1 lá。",
+	[":guose"] = "Giai Đoạn Kĩ. Bạn được dùng lá RÔ như LẠC BẤT TƯ THỤC, và có thể bỏ lá RÔ coi như LẠC BẤT TƯ THỤC đó để lấy 1 lá。",
 	["liuli"] = "LƯU LI",
 	[":liuli"] = "Khi là mục tiêu của 【Sát】, bạn có thể bỏ 1 thẻ bài để chuyển đòn thẻ 【Sát】 sang một người chơi trong tầm đánh của mình.",
 	["~liuli"] = "Chọn 1 lá → chọn 1 người chơi → Bấm OK",
@@ -234,7 +234,7 @@ return {
 	["#sunshangxiang"] = "CUNG YÊU CƠ",
 	["sunshangxiang"] = "TÔN THƯỢNG HƯƠNG",
 	["jieyin"] = "KẾT NHÂN",
-	[":jieyin"] = "Một lần trong lượt。Bạn có thể bỏ 2 lá và chọn một người chơi nam đã mất máu: rồi bạn và người đó được hồi 1 máu。",
+	[":jieyin"] = "Giai Đoạn Kĩ.Bạn có thể bỏ 2 lá và chọn một người chơi nam đã mất máu: rồi bạn và người đó được hồi 1 máu。",
 	["xiaoji"] = "KIÊU CƠ",
 	[":xiaoji"] = "Khi bạn bị mất thẻ trang bị trong khu trang bị, bạn được rút 2 lá。",
 
@@ -255,7 +255,7 @@ return {
 	["huatuo"] = "HOA ĐÀ",
 	["illustrator:huatuo"] = "琛·美弟奇",
 	["chuli"] = "TRỪ LỆ",
-	[":chuli"] = "Một lần trong lượt。Nếu bạn có 1 lá, bạn được chọn một người chơi mỗi nước, rồi bạn và những người chơi đó bỏ hết bài."..
+	[":chuli"] = "Giai Đoạn Kĩ. Nếu bạn có 1 lá, bạn được chọn một người chơi mỗi nước, rồi bạn và những người chơi đó bỏ hết bài."..
 				 "\nNgười chơi bào bỏ 1 lá BÍCH được rút lại 1 lá。",
 	["jijiu"] = "CẤP CỨU",
 	[":jijiu"] = "Ngoài lượt của bạn, bạn được dùng lá ĐỎ như lá ĐÀO。",
@@ -264,7 +264,7 @@ return {
 	["diaochan"] = "ĐIÊU THUYỀN",
 	["illustrator:diaochan"] = "MỘC MĨ NHÂN",
 	["lijian"] = "Li Gián",
-	[":lijian"] = "Một lần trong lượt hành động, có thể bỏ 1 thẻ bài, chỉ định 2 người chơi nam khác tiến hành 【Quyết Đấu】 với nhau.",
+	[":lijian"] = "Giai Đoạn Kĩ. Có thể bỏ 1 thẻ bài, chỉ định 2 người chơi nam khác tiến hành 【Quyết Đấu】 với nhau.",
 	["biyue"] = "Bế Nguyệt",
 	[":biyue"] = "Có thể rút 1 thẻ bài vào cuối lượt.",
 
