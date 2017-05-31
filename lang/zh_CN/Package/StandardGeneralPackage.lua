@@ -324,10 +324,10 @@ return {
 	["&nobenghuai_dongzhuo"] = "董卓",
 	["illustrator:nobenghuai_dongzhuo"] = "小冷",
 
-	["#sujiang"] = "金童",
-	["sujiang"] = "士兵(男)",
-	["&sujiang"] = "士兵",
-	["illustrator:sujiang"] = "木美人",
+	["#sujiang"] = "Kim Đồng",--金童
+	["sujiang"] = "Binh Sĩ(Nam)",
+	["&sujiang"] = "Binh Sĩ",--士兵
+	["illustrator:sujiang"] = "Mộc Mĩ Nhân",
 	["#sujiangf"] = "玉女",
 	["sujiangf"] = "士兵(女)",
 	["&sujiangf"] = "士兵",
