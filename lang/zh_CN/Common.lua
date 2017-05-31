@@ -12,7 +12,7 @@ CommonTranslationTable = {
 	["defensive"] = "后手",
 
 	["compulsoryskill"] = "锁定技。",
-	["limitedskill"] = "限定技。",
+	["limitedskill"] = "Hạn Định Kỹ.",
 	["wakeskill"] = "觉醒技。",
 	["lordskill"] = "主公技。",
 	["oppphskill"] = "阶段技。",

@@ -38,7 +38,7 @@ return {
 	["zhangliao"] = "Trương Liêu", --张辽
 	["illustrator:zhangliao"] = "Trương Suất",
 	["tuxi"] = "Tập Kích", --突袭
-	[":tuxi"] = "[Tập Kích]: Trong lượt rút bài, có thể bỏ qua lượt rút bài \nvà chọn 2 người chơi có bài trên tay, lấy mỗi người một lá bài.", --摸牌阶段，你可以少摸至少一张牌并选择等量的有手牌的手牌不少于你的其他角色：若如此做，你依次获得这些角色各一张手牌。
+	[":tuxi"] = "Trong lượt rút bài, có thể bỏ qua lượt rút bài \nvà chọn 2 người chơi có bài trên tay, lấy mỗi người một lá bài.", --摸牌阶段，你可以少摸至少一张牌并选择等量的有手牌的手牌不少于你的其他角色：若如此做，你依次获得这些角色各一张手牌。
 	["@tuxi-card"] = "Bạn có thể phát động \"Tập Kích\" lên %arg người chơi khác", --arg số lượng.
 	["~tuxi"] = "Chọn 1 đến 2 người chơi rồi nhấn \"OK\".", --选择若干名其他角色→点击确定
 
@@ -104,7 +104,7 @@ return {
 	["paoxiao"] = "Gào Thét", --咆哮
 	[":paoxiao"] = "Ngoài lượt hành động, Có thể dùng 【Sát】 không hạn chế.", --出牌阶段，你使用【杀】无次数限制。
 	["tishen"] = "Thế Thân",
-	[":tishen"] = "Hạn Định Kĩ, Một lần duy nhất，bạn có thể lấy lại lương máu mà bạn đã mất ở lượt hành động trước nếu lượng máu hiện tại thấp hơn giới hạn máu," ..
+	[":tishen"] = "Hạn Định Kỹ. Một lần duy nhất，bạn có thể lấy lại lương máu mà bạn đã mất ở lượt hành động trước nếu lượng máu hiện tại thấp hơn giới hạn máu," ..
 				  "và bạn được tăng 1 sát thương và rút 1 lá bài.", --限定技。准备阶段开始时，若你的体力值小于上回合结束时的体力值，你可以回复至上回合结束时的体力值，然后你每以此法回复1点体力，你摸一张牌。
 	["$TishenAnimate"] = "image=image/animate/tishen.png",
 
