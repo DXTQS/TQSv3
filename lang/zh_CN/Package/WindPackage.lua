@@ -47,35 +47,29 @@ return {
 	[":huangtian"] = "Chủ Công Kĩ. Giai Đoạn Kĩ. Người chơi khác có thể cấp cho bạn thẻ 【Tránh】 hoặc 【Thiểm Điện】 trong lượt của họ.", --主公技。阶段技。其他群雄角色的出牌阶段，该角色可以交给你一张【闪】或【闪电】。
 	["huangtian_attach"] = "Hoàng Thiên Tống Bài(?)", --黄天送牌
 
-	["#xiaoqiao"] = "矫情之花",
-	["xiaoqiao"] = "小乔",
-	["hongyan"] = "红颜",
-	[":hongyan"] = "锁定技。你的黑桃牌视为红桃牌。",
-	["tianxiang"] = "天香",
-	[":tianxiang"] = "每当你受到伤害时，你可以弃置一张红桃手牌并选择一名其他角色：若如此做，你将此伤害转移给该角色，此伤害结算后该角色摸X张牌（X为该角色已损失的体力值）。",
-	["@tianxiang-card"] = "请选择“天香”的目标",
-	["~tianxiang"] = "选择一张<font color=\"red\">♥</font>手牌→选择一名其他角色→点击确定",
+	["#xiaoqiao"] = "Kiểu Tình Chi Hoa",
+	["xiaoqiao"] = "Tiểu Kiều",
+	["hongyan"] = "Hồng Nhan",
+	[":hongyan"] = "Tọa Định Kĩ. Lá Bích như lá Cơ.",
+	["tianxiang"] = "Thiên Hương",
+	[":tianxiang"] = "Mỗi khi bạn nhận sát thương, bạn có thể bỏ 1 lá Cơ và chọn 1 người chơi khác rồi chuyển sát thương cho người đó, người đó sẽ rút X lá (X là số máu bị mất).",
+	["@tianxiang-card"] = "Hãy chọn mục tiêu",
+	["~tianxiang"] = "Chọn 1 lá <font color=\"red\">♥</font>  → chọn người chơi khác  → bấm OK.",
 
 	["#zhoutai"] = "Lịch Chiến Chi Khu",
 	["zhoutai"] = "Chu Thái",
 	["illustrator:zhoutai"] = "Thinking",
 	["buqu"] = "Bất Khuất",
-	[":buqu"] = "锁定技。每当你处于濒死状态时，你将牌堆顶的一张牌置于武将牌上：若无同点数的“不屈牌”，你回复至1点体力；否则你将此牌置入弃牌堆。若你有“不屈牌”，你的手牌上限等于“不屈牌”的数量。",
-	["fenji"] = "奋激",
-	[":fenji"] = "每当一名角色的手牌因另一名角色的弃置或获得为手牌（交给与交换除外）而失去后，若你的体力值大于0，你可以失去1点体力：若如此做，该角色摸两张牌。",
+	[":buqu"] = "Khi bạn thái hấp hối, bạn rút 1 lá từ chồng bài rồi đặt lên lá tướng: Nếu bạn có "lá bất khuất" cùng điểm, thì bạn được hồi 1 máu; nếu không bạn sẽ có một "lá bất khuất", giới hạn trữ bài trên tay bằng số lượng "lá bất khuất".",
+	["fenji"] = "Phấn Khích",
+	[":fenji"] = "Khi 1 lá của 1 người chơi bị bỏ hoặc lấy bởi một người chơi khác (ngoại trừ cấp bài và đổi bài), nếu số máu của bạn lớn hơn 0, bạn mất 1 máu: rồi người đó được rút 2 lá.",
 
 	["#yuji"] = "Thái Bình Đạo Nhân",
 	["yuji"] = "Vu Cát",
 	["illustrator:yuji"] = "魔鬼鱼",
 	["guhuo"] = "Cổ Hoặc",
-	[":guhuo"] = "Mỗi khi bạn muốn sử dụng lá công cụ không đuy trì hoặc lá cơ bản,".. 
-				 "\nbạn có thể úp lá đó xuống và nói ra lá bạn muốn sài. Rồi các người".. 
-				 "\nchơi khác được chọn có tin bạn hay không. Nếu mọi người tin bạn, "..
-				 "\nlá đó được lật lên và tạo ra hiệu ứng đã nêu. Nếu có người chơi " ..
-				 "\nkhông tin, lá đó được lật. Nếu bạn nói sự thật, tất cả người chơi " ..
-				 "\nkhông tin mất một máu. Nếu bạn không nói thật, người chơi không tin " ..
-				 "\nđược rút 1 lá. Nếu tất cả  người chơi đều không tin và bạn nói sự thật và " ..
-				 "\nthẻ bài là  lá Cơ, lá đó gây hiệu quả. Nếu không lá đó bị bỏ.",
+	[":guhuo"] = "Mỗi khi bạn muốn sử dụng lá công cụ không duy trì hoặc lá cơ bản, bạn có thể nói ra lá muốn sài rồi giữ lá đó trên tay, những người chơi khác được chọn có tin hay không: Nếu mọi người đều tin, thì lật lá đó lên rồi sử dụng bình thường; nếu có người không tin, thì lá đó được lật lên, nếu lá đó đúng, người chơi bị "Triền Oán" (Tọa Định Kĩ. Bạn không thể không tin "Cổ Hoặc". Nếu bạn còn 1 máu, không thể sử dụng kĩ năng.), rồi bạn sử dụng lá đó bình thường, nếu lá đó sai lá đó bị hủy. Chỉ tác động một lần lên một người chơi. ",
+				 
 	["chanyuan"] = "Triền Oán",
 	[":chanyuan"] = "Tọa Định Kĩ. Bạn không thể nghi ngờ “Cổ Hoặc”. ",
 					"\nNếu bạn còn 1 máu bạn không sử dụng được kĩ năng còn lại",
