@@ -2,14 +2,14 @@
 
 return
 {
-	["Basara"] = "暗将",
-	["#BasaraReveal"] = "%from 展示了武将 %arg",
-	["#BasaraRevealDual"] = "%from 展示了武将，主将为 %arg，副将为 %arg2",
-	["RevealGeneral"] = "展示武将",
-	["anjiang"] = "暗将",
-	["#BasaraGeneralChosen"] = "你选择的武将为 %arg",
-	["#BasaraGeneralChosenDual"] = "你选择的武将为 %arg 和 %arg2",
-	["Hegemony"] = "国战",
-	["Roles"] = "身份",
-	["~anjiang"] = "死不瞑目啊……",
+	["Basara"] = "Ẩn Tướng",
+	["#BasaraReveal"] = "%from đã lộ mặt tướng %arg", --%from 展示了武将 %arg
+	["#BasaraRevealDual"] = "%from đã lột mặt tướng，chủ tướng là %arg，phó tướng là %arg2",
+	["RevealGeneral"] = "Lộ mặt tướng",
+	["anjiang"] = "Tướng Ẩn", --暗将
+	["#BasaraGeneralChosen"] = "Bạn chọn võ tướng %arg",
+	["#BasaraGeneralChosenDual"] = "Bạn chọn võ tướng %arg cùng với %arg2",
+	["Hegemony"] = "Quốc Chiến", --国战
+	["Roles"] = "Thân Phận", --身份
+	["~anjiang"] = "Chết không nhắm mắt a.....", 
 }

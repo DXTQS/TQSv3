@@ -1,25 +1,25 @@
 -- translation for JianGe Defense Mode
 
 return {
-	["JianGeDefense"] = "守卫剑阁",
+	["JianGeDefense"] = "Thủ Vệ Kiếm Các", --守卫剑阁
 
-	["#jg_soul_caozhen"] = "曹魏英魂",
-	["jg_soul_caozhen"] = "佳人子丹",
+	["jg_soul_caozhen"] = "Giai Nhân Tử Đan", --佳人子丹
+	["#jg_soul_caozhen"] = "Tào Ngụy Anh Hồn", --曹魏英魂
 	["illustrator:jg_soul_caozhen"] = "",
-	["jgchiying"] = "持盈",
+	["jgchiying"] = "Trì Doanh", --持盈
 	[":jgchiying"] = "锁定技。每当己方角色受到伤害时，若此伤害大于1点，防止多余的伤害。",
-	["jgjingfan"] = "惊帆",
+	["jgjingfan"] = "Kinh Phàm", --惊帆
 	[":jgjingfan"] = "锁定技。其他己方角色与对方角色的距离-1。",
 	["#JGChiying"] = "%from 的“%arg2”被触发，防止了 %to 受到的 %arg 点伤害，减至 <font color=\"yellow\"><b>1</b></font> 点",
 
-	["#jg_soul_simayi"] = "曹魏英魂",
-	["jg_soul_simayi"] = "断狱仲达",
+	["#jg_soul_simayi"] = "Tào Ngụy Anh Hồn", --曹魏英魂
+	["jg_soul_simayi"] = "Đoạn Ngục Trọng Đạt",
 	["illustrator:jg_soul_simayi"] = "",
-	["jgkonghun"] = "控魂",
+	["jgkonghun"] = "Khống Hồn", --控魂
 	[":jgkonghun"] = "出牌阶段开始时，若你已损失的体力值不小于X，你可以对所有对方角色各造成1点雷电伤害，然后你回复X点体力（X为对方角色数）。",
-	["jgfanshi"] = "反噬",
+	["jgfanshi"] = "Phản Phệ", --反噬
 	[":jgfanshi"] = "锁定技。结束阶段开始时，你失去1点体力。",
-	["jgxuanlei"] = "玄雷",
+	["jgxuanlei"] = "Huyền Lôi", --玄雷
 	[":jgxuanlei"] = "锁定技。准备阶段开始时，判定区有牌的对方角色受到1点雷电伤害。",
 
 	["#jg_soul_xiahouyuan"] = "曹魏英魂",

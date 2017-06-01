@@ -1,8 +1,8 @@
 -- translation for Couple Scenario
 
 return {
-	["couple"] = "夫妻协战",
-	["reselect"] = "重选",
+	["couple"] = "Phu Thê Hiệp Chiến", --夫妻协战
+	["reselect"] = "chọn lại", --重选
 	["#Marry"] = "恭喜 %from 与 %to 喜结连理！",
-	["#Divorse"] = "负心的 %from 抛弃了可怜的 %to",
+	["#Divorse"] = "Xin chúc mừng %from và %to đã hỉ kết liên lí",
 }
