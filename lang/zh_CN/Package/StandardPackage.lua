@@ -61,11 +61,11 @@ local t = {
 	["ice_sword:yes"] = "Bạn có thể bỏ 2 thẻ bài của mục tiêu",
 
 	["horse"] = "CHIẾN MÃ",
-	[":+1 horse"] = "Thẻ trang bị - Tọa Kị<br /><b>Kỹ năng</b>：Cự ly giữa người chơi khác và bản thân +1.",
+	[":+1 horse"] = "Thẻ trang bị - Tọa Kị<br /><b>Kỹ năng</b>： Cự ly giữa người chơi khác và bản thân +1.",
 	["jueying"] = "TUYỆT ẢNH",
 	["dilu"] = "ĐÍCH LÔ",
 	["zhuahuangfeidian"] = "TRẢO HOÀNG PHI ĐIỆN",
-	[":-1 horse"] = "Thẻ trang bị - CHIẾN MÃ<br /><b>Kỹ năng</b>Cự ly của bạn với người chơi khác -1.",
+	[":-1 horse"] = "Thẻ trang bị - CHIẾN MÃ<br /><b>Kỹ năng</b>: Cự ly của bạn với người chơi khác -1.",
 	["chitu"] = "XÍCH THỐ",
 	["dayuan"] = "ĐẠI UYỂN",
 	["zixing"] = "TỬ TINH",
