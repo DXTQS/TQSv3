@@ -60,7 +60,7 @@ return {
 	["zhoutai"] = "Chu Thái",
 	["illustrator:zhoutai"] = "Thinking",
 	["buqu"] = "Bất Khuất",
-	[":buqu"] = "Khi bạn thái hấp hối, bạn rút 1 lá từ chồng bài rồi đặt lên lá tướng: Nếu bạn có "lá bất khuất" cùng điểm, thì bạn được hồi 1 máu; nếu không bạn sẽ có một "lá bất khuất", giới hạn trữ bài trên tay bằng số lượng "lá bất khuất".",
+	[":buqu"] = "Khi bạn thái hấp hối, bạn rút 1 lá từ chồng bài rồi đặt lên lá tướng: Nếu bạn có Lá Bất Khuất cùng điểm, thì bạn được hồi 1 máu; nếu không bạn sẽ có một Lá Bất Khuất, giới hạn trữ bài trên tay bằng số lượng Lá Bất Khuất.",
 	["fenji"] = "Phấn Khích",
 	[":fenji"] = "Khi 1 lá của 1 người chơi bị bỏ hoặc lấy bởi một người chơi khác (ngoại trừ cấp bài và đổi bài), nếu số máu của bạn lớn hơn 0, bạn mất 1 máu: rồi người đó được rút 2 lá.",
 
@@ -68,7 +68,7 @@ return {
 	["yuji"] = "Vu Cát",
 	["illustrator:yuji"] = "魔鬼鱼",
 	["guhuo"] = "Cổ Hoặc",
-	[":guhuo"] = "Mỗi khi bạn muốn sử dụng lá công cụ không duy trì hoặc lá cơ bản, bạn có thể nói ra lá muốn sài rồi giữ lá đó trên tay, những người chơi khác được chọn có tin hay không: Nếu mọi người đều tin, thì lật lá đó lên rồi sử dụng bình thường; nếu có người không tin, thì lá đó được lật lên, nếu lá đó đúng, người chơi bị "Triền Oán" (Tọa Định Kĩ. Bạn không thể không tin "Cổ Hoặc". Nếu bạn còn 1 máu, không thể sử dụng kĩ năng.), rồi bạn sử dụng lá đó bình thường, nếu lá đó sai lá đó bị hủy. Chỉ tác động một lần lên một người chơi. ",
+	[":guhuo"] = "Mỗi khi bạn muốn sử dụng lá công cụ không duy trì hoặc lá cơ bản, bạn có thể nói ra lá muốn sài rồi giữ lá đó trên tay, những người chơi khác được chọn có tin hay không: Nếu mọi người đều tin, thì lật lá đó lên rồi sử dụng bình thường; nếu có người không tin, thì lá đó được lật lên, nếu lá đó đúng, người chơi bị Triền Oán (Tọa Định Kĩ. Bạn không thể không tin Cổ Hoặc. Nếu bạn còn 1 máu, không thể sử dụng kĩ năng.), rồi bạn sử dụng lá đó bình thường, nếu lá đó sai lá đó bị hủy. Chỉ tác động một lần lên một người chơi. ",
 				 
 	["chanyuan"] = "Triền Oán",
 	[":chanyuan"] = "Tọa Định Kĩ. Bạn không thể nghi ngờ “Cổ Hoặc”. ",
