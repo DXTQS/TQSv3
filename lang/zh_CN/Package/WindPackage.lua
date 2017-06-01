@@ -72,15 +72,15 @@ return {
 				 "\nbạn có thể úp lá đó xuống và nói ra lá bạn muốn sài. Rồi các người".. 
 				 "\nchơi khác được chọn có tin bạn hay không. Nếu mọi người tin bạn, "..
 				 "\nlá đó được lật lên và tạo ra hiệu ứng đã nêu. Nếu có người chơi " ..
-				 "\nnghi ngờ, lá đó được lật. Nếu bạn nói sự thật, tất cả người chơi " ..
-				 "\nnghi ngờ mất một máu. Nếu bạn không nói thật, người chơi nghi ngờ " ..
-				 "\nđược rút 1 lá. Nếu tất cả đều nghi ngờ và bạn nói sự thật và " ..
-				 "\nthẻ bài là Cơ, lá đó gây hiệu quả. Nếu không lá đó bị bỏ.",
+				 "\nkhông tin, lá đó được lật. Nếu bạn nói sự thật, tất cả người chơi " ..
+				 "\nkhông tin mất một máu. Nếu bạn không nói thật, người chơi không tin " ..
+				 "\nđược rút 1 lá. Nếu tất cả  người chơi đều không tin và bạn nói sự thật và " ..
+				 "\nthẻ bài là  lá Cơ, lá đó gây hiệu quả. Nếu không lá đó bị bỏ.",
 	["chanyuan"] = "Triền Oán",
 	[":chanyuan"] = "Tọa Định Kĩ. Bạn không thể nghi ngờ “Cổ Hoặc”. ",
 					"\nNếu bạn còn 1 máu bạn không sử dụng được kĩ năng còn lại",
-	["question"] = "Nghi ngờ",
-	["noquestion"] = "Không nghi ngờ",
+	["question"] = "Không Tin",
+	["noquestion"] = "Tin",
 	["guhuo_saveself"] = "Cổ Hoặc lá Đào hoặc lá Rượu",
 	["guhuo_slash"] = "“Cổ Hoặc lá Sát",
 	["normal_slash"] = "Sát thường",
