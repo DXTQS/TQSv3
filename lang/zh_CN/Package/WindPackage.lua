@@ -64,22 +64,31 @@ return {
 	["fenji"] = "奋激",
 	[":fenji"] = "每当一名角色的手牌因另一名角色的弃置或获得为手牌（交给与交换除外）而失去后，若你的体力值大于0，你可以失去1点体力：若如此做，该角色摸两张牌。",
 
-	["#yuji"] = "太平道人",
-	["yuji"] = "于吉",
+	["#yuji"] = "Thái Bình Đạo Nhân",
+	["yuji"] = "Vu Cát",
 	["illustrator:yuji"] = "魔鬼鱼",
-	["guhuo"] = "蛊惑",
-	[":guhuo"] = "你可以扣置一张手牌当做一张基本牌或非延时锦囊牌使用或打出，其他角色选择是否质疑：若无角色质疑，你展示此牌，取消不合法的目标并按你所述继续结算；若有角色质疑，中止质疑询问并展示此牌：若此牌为真，该角色获得“缠怨”（锁定技。你不能质疑“蛊惑”。若你的体力值为1，你的其他武将技能无效。），取消不合法的目标并按你所述继续结算；否则你将之置入弃牌堆。每名角色的回合限一次。",
-	["chanyuan"] = "缠怨",
-	[":chanyuan"] = "锁定技。你不能质疑“蛊惑”。若你的体力值为1，你的其他武将技能无效。",
-	["question"] = "质疑",
-	["noquestion"] = "不质疑",
-	["guhuo_saveself"] = "“蛊惑”【桃】或【酒】",
-	["guhuo_slash"] = "“蛊惑”【杀】",
-	["normal_slash"] = "普通杀",
-	["#Guhuo"] = "%from 发动了“%arg2”，声明此牌为 【%arg】，指定的目标为 %to",
-	["#GuhuoNoTarget"] = "%from 发动了“%arg2”，声明此牌为 【%arg】",
-	["#GuhuoCannotQuestion"] = "%from 当前体力值为 %arg，无法质疑",
-	["#GuhuoQuery"] = "%from 表示 %arg",
-	["$GuhuoResult"] = "%from 的“<font color=\"yellow\"><b>蛊惑</b></font>”牌是 %card",
-	["#Chanyuan"] = "%from 的“%arg”被触发，无法质疑",
+	["guhuo"] = "Cổ Hoặc",
+	[":guhuo"] = "Mỗi khi bạn muốn sử dụng lá công cụ không đuy trì hoặc lá cơ bản,".. 
+				 "\nbạn có thể úp lá đó xuống và nói ra lá bạn muốn sài. Rồi các người".. 
+				 "\nchơi khác được chọn có tin bạn hay không. Nếu mọi người tin bạn, "..
+				 "\nlá đó được lật lên và tạo ra hiệu ứng đã nêu. Nếu có người chơi "
+				 "\nnghi ngờ, lá đó được lật. Nếu bạn nói sự thật, tất cả người chơi "
+				 "\nnghi ngờ mất một máu. Nếu bạn không nói thật, người chơi nghi ngờ "
+				 "\nđược rút 1 lá. Nếu tất cả đều nghi ngờ và bạn nói sự thật và "
+				 "\nthẻ bài là Cơ, lá đó gây hiệu quả. Nếu không lá đó bị bỏ.",
+	["chanyuan"] = "Triền Oán",
+	[":chanyuan"] = "Tọa Định Kĩ. Bạn không thể nghi ngờ “Cổ Hoặc”. "
+					"\nNếu bạn còn 1 máu bạn không sử dụng được kĩ năng còn lại",
+	["question"] = "Nghi ngờ",
+	["noquestion"] = "Không nghi ngờ",
+	["guhuo_saveself"] = "Cổ Hoặc lá Đào hoặc lá Rượu",
+	["guhuo_slash"] = "“Cổ Hoặc lá Sát",
+	["normal_slash"] = "Sát thường",
+	["#Guhuo"] = "%from sử dụng “%arg2”，nói lá này là lá 【%arg】，mục tiêu là %to",
+	["#GuhuoNoTarget"] = "%from sử dụng“%arg2”，nói lá này là 【%arg】",
+	["#GuhuoCannotQuestion"] = "%from có số màu là %arg，không thể nghi ngờ",
+	["#GuhuoQuery"] = "%from đã nói %arg",
+	["$GuhuoResult"] = "%from đã sử dụng “<font color=\"yellow\"><b>Cổ Hoặc</b></font>” đúng lá %card",
+	["#Chanyuan"] = "%from  đã kích hoạt “%arg”，không thể bị nghi ngờ.",
 }
+	
