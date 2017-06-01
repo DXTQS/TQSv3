@@ -71,10 +71,10 @@ return {
 	[":guhuo"] = "Mỗi khi bạn muốn sử dụng lá công cụ không đuy trì hoặc lá cơ bản,".. 
 				 "\nbạn có thể úp lá đó xuống và nói ra lá bạn muốn sài. Rồi các người".. 
 				 "\nchơi khác được chọn có tin bạn hay không. Nếu mọi người tin bạn, "..
-				 "\nlá đó được lật lên và tạo ra hiệu ứng đã nêu. Nếu có người chơi "
-				 "\nnghi ngờ, lá đó được lật. Nếu bạn nói sự thật, tất cả người chơi "
-				 "\nnghi ngờ mất một máu. Nếu bạn không nói thật, người chơi nghi ngờ "
-				 "\nđược rút 1 lá. Nếu tất cả đều nghi ngờ và bạn nói sự thật và "
+				 "\nlá đó được lật lên và tạo ra hiệu ứng đã nêu. Nếu có người chơi " ..
+				 "\nnghi ngờ, lá đó được lật. Nếu bạn nói sự thật, tất cả người chơi " ..
+				 "\nnghi ngờ mất một máu. Nếu bạn không nói thật, người chơi nghi ngờ " ..
+				 "\nđược rút 1 lá. Nếu tất cả đều nghi ngờ và bạn nói sự thật và " ..
 				 "\nthẻ bài là Cơ, lá đó gây hiệu quả. Nếu không lá đó bị bỏ.",
 	["chanyuan"] = "Triền Oán",
 	[":chanyuan"] = "Tọa Định Kĩ. Bạn không thể nghi ngờ “Cổ Hoặc”. "
