@@ -77,7 +77,7 @@ return {
 				 "\nđược rút 1 lá. Nếu tất cả đều nghi ngờ và bạn nói sự thật và " ..
 				 "\nthẻ bài là Cơ, lá đó gây hiệu quả. Nếu không lá đó bị bỏ.",
 	["chanyuan"] = "Triền Oán",
-	[":chanyuan"] = "Tọa Định Kĩ. Bạn không thể nghi ngờ “Cổ Hoặc”. "
+	[":chanyuan"] = "Tọa Định Kĩ. Bạn không thể nghi ngờ “Cổ Hoặc”. ",
 					"\nNếu bạn còn 1 máu bạn không sử dụng được kĩ năng còn lại",
 	["question"] = "Nghi ngờ",
 	["noquestion"] = "Không nghi ngờ",
