@@ -1,7 +1,7 @@
 {
 "common":
 {
-    "cardNormalWidth": 93,
+    "cardNormalWidth": 93, //Khoảng cách các thẻ 
     "cardNormalHeight": 130,
     "cardMainArea": [0, 0, 93, 130],
     "cardFrameArea": [-5, -5, 98, 135],
@@ -9,9 +9,9 @@
     "cardNumberArea": [-2, -1, 27, 28],
     "cardFootnoteArea": [5, 75, 85, 50],
     "cardAvatarArea": [26, 67, 40, 40],
-    "cardFootnoteFont": ["SimSun", [12, 12, 1], 0, [228, 213, 160, 255], 1, 10, [0, 0], [20, 20, 20, 255]],
+    "cardFootnoteFont": ["HelveticaWorld-Regular", [0, 0, 1], 0, [228, 213, 160, 255], 1, 10, [0, 0], [20, 20, 20, 255]],
     "promptInfoSize": [900, 110],
-    "promptInfoFont": ["SimHei", [20, 20, 4], 20, [255, 255, 255, 255], 2, 10, [0, 0], [7, 50, 78, 255]],
+    "promptInfoFont": ["UTMThuPhap", [20, 20, 4], 20, [255, 255, 255, 255], 2, 10, [0, 0], [7, 50, 78, 255]],
     "chooseGeneralBoxSwitchIconSizeThreshold": 12,
     "chooseGeneralBoxSwitchIconEachRow": 6,
     "chooseGeneralBoxSwitchIconEachRowForTooManyGenerals": 7,
@@ -45,12 +45,12 @@
 "room":
 {
     "scenePadding": 0,
-    "roleBoxHeight": 60,
+    "roleBoxHeight": 120,
     "chatTextBoxHeight": 35,
     "logBoxHeightPercentage": 0.6,
     "chatBoxHeightPercentage": 0.4,
     "infoPlaneWidthPercentage": 0.17,
-    "photoRoomPadding": 10,
+    "photoRoomPadding": 40,
     "photoDashboardPadding": 40,
     "photoHDistance": 32,
     "photoVDistance": 32,
@@ -67,7 +67,7 @@
     "mainFrameArea": [0, 0, 157, 181],
     "canvasArea": [0, 0, 157, 181],
     "handCardNumIconArea": [-7, 93, 30, 18],
-    "handCardFont": ["Arial", [12, 12, -1], 20, [255, 255, 255, 255], 1, 30, [0, 0], [20, 20, 20, 200]],
+    "handCardFont": ["RobotoCondensed", [12, 12, -1], 20, [255, 255, 255, 255], 1, 30, [0, 0], [20, 20, 20, 200]],
     "equipAreas": [[1, 120, 150, 21], [1, 134, 150, 21], [1, 148, 75, 21], [70, 148, 75, 21], [1, 162, 150, 21]],
     "equipImageArea": [0, 1, 140, 19],
     "equipSuitArea": [117, 2, 21, 17],
@@ -77,7 +77,7 @@
     "horsePointArea": [37, -4, 25, 25],
     "equipPointFontBlack": ["Arial", [14, 14, 3], 20, [0, 0, 0, 255], 1, 0, [0, 0], [240, 240, 240, 200]],
     "equipPointFontRed": ["Arial", [14, 14, 3], 20, [164, 0, 0, 255], 1, 0, [0, 0], [240, 240, 240, 200]],   
-    "delayedTrickFirstRegion": [143, 20, 28, 28],
+    "delayedTrickFirstRegion": [160, 20, 28, 28], //thẻ phán xét	
     "delayedTrickStep": [0, 26],
     "roleComboBoxPos": [130, 1],
     "changePrimaryHeroSkinBtnPos": [25, 40],
@@ -90,27 +90,34 @@
     "avatarArea": [1, 1, 155, 179],
     "secondaryAvatarArea": [78, 1, 77, 179],
     "circleArea": [1, 1, 155, 179],
-    "avatarNameArea": [-1, 22, 40, 60],
-    "avatarNameFont": ["@SimLi", [18, 18, 0], 0, [255, 255, 255, 255], 1, 10, [0, 0], [50, 50, 50, 200]],
-    "smallAvatarNameArea": [78, 22, 40, 60],
-    "smallAvatarNameFont": ["@SimLi", [18, 18, 0], 0, [255, 255, 255, 255], 1, 10, [0, 0], [50, 50, 50, 200]],
-    "kingdomIconArea": [-4, -2, 28, 28],
-    "kingdomMaskArea": [0, 12, 18, 80],
+   
+   "avatarNameArea": [28, -22, 130, 20], //[-1, 22, 40, 60] tên tướng vùng chơi
+    "avatarNameFont": ["HelveticaWorld-Regular", 20, 20, [255, 255, 255, 255], 2, 10, [0, 0], [50, 50, 50, 200]],
+    "smallAvatarNameArea": [78, 22, 80, 120],
+    "smallAvatarNameFont": ["HelveticaWorld-Regular", [18, 18, 0], 0, [255, 255, 255, 255], 1, 10, [0, 0], [50, 50, 50, 200]],
+    "kingdomIconArea": [0, -25, 25, 25],
+    "kingdomMaskArea": [0, -25, 155, 30], //18 80
     "screenNameArea": [0, 0, 157, 15],
-    "screenNameFont": ["SimSun", 12, 0, [255, 255, 255, 255], 0, 10, [0, 0], [20, 20, 20, 155]],
-    "magatamasHorizontal": false,
-    "magatamaSize": [18, 17],
+    "screenNameFont": ["HelveticaWorld-Regular", 15, 0, [255, 255, 255, 255], 0, 10, [0, 0], [20, 20, 20, 155]], //tên người chơi
+    
+	//Máu vùng người chơi
+	"magatamasHorizontal": false, 
+    "magatamaSize": [18, 17], 
     "magatamaImageArea": [2, 2, 14, 17],
     "magatamasBgVisible": true,
     "magatamasAnchor": ["bottomRight", [156, 194]],
-    "cardMoveArea": [-15, 35, 200, 130],
+   
+   "cardMoveArea": [-15, 35, 200, 130],
     "phaseArea": [25, 176, 140, 12],
     "onlineStatusArea": [122, 24, 30, 25],
     "onlineStatusBgColor": [0, 0, 0, 0],
     "onlineStatusFont": ["SimSun",12, 0, [255, 255, 255, 255], 3, 10, [0, 0], [20, 20, 20, 155]],
-    "skillNameArea": [25, 30, 300, 50],
-    "skillNameFont": ["SimLi", 30, 0, [255, 255, 255, 255], 2, 20, [0, 0], [255, 20, 255, 128]],
-    "progressBarArea": ["topLeft", "bottomLeft", [0, 6], [157, 13]],
+    
+	//Skill hiện vùng người chơi
+	"skillNameArea": [0, 40, 300, 50],
+    "skillNameFont": ["Egorycastle", 40, 0, [255, 255, 255, 255], 2, 20, [0, 0], [255, 20, 255, 128]],
+    
+	"progressBarArea": ["topLeft", "bottomLeft", [0, 6], [157, 13]],
     "progressBarHorizontal": true,
     "privatePileStartPos": [25, 18],
     "privatePileStep": [0, 16],
@@ -125,7 +132,8 @@
     "duanchangMaskColor": [255, 255, 255, 128],
     "deathEffectColor": [50, 50, 50, 255],
     "extraSkillArea": [32, 96, 56, 20],
-    "extraSkillFont": ["SimLi", [16, 16, 3], 0, [255, 255, 255, 255], 2, 100, [0, 0], [102, 16, 120, 255]],
+    
+	"extraSkillFont": ["Egorycastle", [16, 16, 3], 0, [255, 255, 255, 255], 2, 100, [0, 0], [102, 16, 120, 255]],
     "extraSkillTextArea": [32, 93, 56, 20]
 },
 "dashboard":
@@ -162,10 +170,10 @@
     "avatarArea": [3, 3, 165, 191],
     "secondaryAvatarArea": [86, 3, 82, 191],
     "circleArea": [19, 3, 134, 191],
-    "avatarNameArea": [-38, -9, 60, 40],
+    "avatarNameArea": [-80, -48, 130, 110],
     "focusFrameArea": [3, 3, 165, 191],
     "smallAvatarNameArea": [84, 23, 40, 60],
-    "avatarNameFont": ["SimLi", [18, 18, 0], 0, [255, 255, 255, 255], 1, 10, [0, 0], [50, 50, 50, 200]],
+    "avatarNameFont": ["Hero", [23, 23, 0], 0, [255, 255, 255, 255], 2, 10, [0, 0], [50, 50, 50, 200]],
     "smallAvatarNameFont": ["@SimLi", [18, 18, 0], 0, [255, 255, 255, 255], 4, 10, [0, 0], [50, 50, 50, 200]],
     // must be in one of the following format:
     // [offsetX, offestY, sizeX, sizeY]
@@ -175,12 +183,14 @@
     // otherwise, the corner of child specified by "childAnchor" will first be aligned to that of parent specified by "parentAnchor",
     // and offset if applied after the alignment is done. When the 4th parameter [sizeX, sizeY] is specified, fixed size of the area
     // is used; otherwise, it means area's size is variable with the content of that area, the program will adjust the size automatically
-    "markTextArea": ["bottomRight", "bottomRight",  [-60, 15]],
+    
+	//Vùng người chơi
+	"markTextArea": ["bottomRight", "bottomRight",  [-60, 15]],
     "phaseArea": ["bottomRight", "bottomRight", [-150, 20], [209, 18]],
-    "kingdomIconArea": [-63, 1, 28, 25],
-    "kingdomMaskArea": [-61, 5, 87, 21],
-    "screenNameArea": [0, 0, 157, 25],
-    "screenNameFont": ["SimSun", 12, 0, [255, 255, 255, 255], 2, 10, [0, 0], [0, 0, 0, 224]],
+    "kingdomIconArea": [-106, 0, 28, 25],
+    "kingdomMaskArea": [-106, 0, 160, 30],
+    "screenNameArea": [30, 0, 157, 25],
+    "screenNameFont": ["Effra", 14, 0, [255, 255, 255, 255], 2, 10, [0, 0], [0, 0, 0, 224]], //Tên người chơi
     "magatamasHorizontal": false,
     "magatamaSize": [23, 30],
     "magatamaImageArea": [0, 3, 22, 26],
@@ -188,10 +198,10 @@
     "magatamasAnchor": ["bottomRight", [168, 225]],
     "cardMoveArea": [-50, 65, 200, 130],
     "skillNameArea": [25, 30, 300, 50],
-    "skillNameFont": ["SimLi", 30, 0, [255, 255, 255, 255], 2, 20, [0, 0], [255, 0, 0, 128]],
+    "skillNameFont": ["UTMThuPhap", 30, 0, [255, 255, 255, 255], 2, 20, [0, 0], [255, 0, 0, 128]],
     "progressBarArea": ["bottomCenter", "bottomCenter", [-58, 0], [262, 15]],
     "progressBarHorizontal": true,
-    "privatePileStartPos": [40, 20],
+    "privatePileStartPos": [20, 20],
     "privatePileStep": [0, 16],
     "privatePileButtonSize": [80, 16],
     "actionedIconRegion": [84, 30, 52, 21],
@@ -218,9 +228,9 @@
     "width": [134, 67, 45],
     "textArea": [[19, 2, 112, 20], [20, 2, 44, 20], [9, 2, 40, 20]],
     "textAreaDown": [[20, 3, 112, 20], [21, 3, 44, 20], [10, 3, 40, 20]],
-    "textFont": [["simkai", [13, 13, 2], 50, [0, 0, 0, 255], 1, 1, [0, 0], [255, 255, 190, 128]],  // wide
-                 ["simkai", [13, 13, 1], 50, [0, 0, 0, 255], 1, 1, [0, 0], [255, 255, 190, 128]],  // medium
-                 ["simkai", [13, 13, 0], 50, [0, 0, 0, 255], 1, 1, [0, 0], [255, 255, 190, 128]]],  // narrow
+    "textFont": [["Hero", [15, 15, 2], 50, [0, 0, 0, 255], 1, 1, [0, 0], [255, 255, 190, 128]],  // wide
+                 ["Hero", [15, 15, 1], 50, [0, 0, 0, 255], 1, 1, [0, 0], [255, 255, 190, 128]],  // medium
+                 ["Hero", [15, 15, 0], 50, [0, 0, 0, 255], 1, 1, [0, 0], [255, 255, 190, 128]]],  // narrow
 
     // The following settings override the text color defined above
     // xxButtonColor = [normalColor, downColor, disabledColor, hoverColor]

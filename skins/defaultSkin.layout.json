@@ -1,15 +1,15 @@
 {
 "common":
 {
-    "cardNormalWidth": 130,
+    "cardNormalWidth": 93,
     "cardNormalHeight": 130,
     "cardMainArea": [0, 0, 93, 130],
-    "cardFrameArea": [-5, -5, 98, 135],
+    "cardFrameArea": [-5, -5, 98, 135], // [-5, -5, 98, 135]
     "cardSuitArea": [1, 17, 21, 17],
     "cardNumberArea": [-2, -1, 27, 28],
     "cardFootnoteArea": [5, 75, 85, 50],
     "cardAvatarArea": [26, 67, 40, 40],
-    "cardFootnoteFont": ["HelveticaWorld-Regular", [15, 15, 3], 0, [255, 255, 255, 255], 1, 10, [0, 0], [20, 20, 20, 255]],
+    "cardFootnoteFont": ["UTMThuPhap", [30, 30, 3], 0, [255, 255, 255, 255], 1, 10, [0, 0], [20, 20, 20, 255]],
     "promptInfoSize": [900, 110],
     "promptInfoFont": ["HelveticaWorld-Regular", [20, 20, 3], 0, [255, 255, 255, 255], 5, 20, [0, 0], [7, 50, 78, 255]],
     "chooseGeneralBoxSwitchIconSizeThreshold": 12,
