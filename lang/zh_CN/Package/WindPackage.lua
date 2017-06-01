@@ -1,31 +1,31 @@
 -- translation for Wind Package
 
 return {
-	["wind"] = "风包",
+	["wind"] = "Phong Bao", --风包
 
-	["#xiahouyuan"] = "疾行的猎豹",
-	["xiahouyuan"] = "夏侯渊",
-	["shensu"] = "神速",
-	[":shensu"] = "你可以选择一至两项：跳过判定阶段和摸牌阶段，或跳过出牌阶段并弃置一张装备牌：你每选择上述一项，视为你使用一张无距离限制的【杀】。",
-	["@shensu1"] = "你可以跳过判定阶段和摸牌阶段发动“神速”",
-	["@shensu2"] = "你可以跳过出牌阶段并弃置一张装备牌发动“神速”",
-	["~shensu1"] = "选择【杀】的目标角色→点击确定",
-	["~shensu2"] = "选择一张装备牌→选择【杀】的目标角色→点击确定",
+	["#xiahouyuan"] = "Tật Hành Đích Liệp Báo",
+	["xiahouyuan"] = "Hạ Hầu Uyên", --夏侯渊
+	["shensu"] = "Thần Tốc", --神速
+	[":shensu"] = "Bạn có thể thực hiện 1 hoặc cả 2 lựa chọn sau để dùng lá 【Sát】 tấn công người chơi bất kỳ không giới hạn tầm đánh: \n1. Bỏ qua giai đoạn rút phán xét và giai đoạn rút bài. \n2. Bỏ qua giai đoạn dùng bài và bỏ 1 trang bị.", --你可以选择一至两项：跳过判定阶段和摸牌阶段，或跳过出牌阶段并弃置一张装备牌：你每选择上述一项，视为你使用一张无距离限制的【杀】。
+	["@shensu1"] = "Bạn có thể bỏ qua giai đoạn rút phán xét và giai đoạn rút bài để phát động \"Thần Tốc\".",
+	["@shensu2"] = "Bạn có thể bỏ qua giai đoạn dùng bài và bỏ một trang bị để phát động \"Thần Tốc\".", --你可以跳过出牌阶段并弃置一张装备牌发动“神速”
+	["~shensu1"] = "Chọn mục tiêu của lá 【Sát】 rồi nhấn OK", --选择【杀】的目标角色→点击确定
+	["~shensu2"] = "Chọn một trang bị cần hủy > Chọn mục tiêu của lá 【Sát】 rồi nhấn OK.", --选择一张装备牌→选择【杀】的目标角色→点击确定
 
-	["#caoren"] = "大将军",
-	["caoren"] = "曹仁",
+	["#caoren"] = "Đại Tướng Quân", --大将军
+	["caoren"] = "Tào Nhân", --曹仁
 	["illustrator:caoren"] = "Ccat",
-	["jushou"] = "据守",
-	[":jushou"] = "结束阶段开始时，你可以摸一张牌，然后将武将牌翻面。",
-	["jiewei"] = "解围",
-	[":jiewei"] = "每当你的武将牌翻面后，你可以摸一张牌，然后你可以使用一张锦囊牌或装备牌：若如此做，此牌结算后，你可以弃置场上一张同类型的牌。",
-	["@jiewei"] = "你可以使用一张锦囊牌或装备牌",
-	["@jiewei-discard"] = "你可以弃置一名角色场上与你使用的牌同类型的牌",
+	["jushou"] = "Cư Thú", --据守
+	[":jushou"] = "Cuối lượt, Bạn có thể rút một lá và úp mặt tướng.", --结束阶段开始时，你可以摸一张牌，然后将武将牌翻面。
+	["jiewei"] = "Giải Vi", --解围
+	[":jiewei"] = "Bất cứ khi nào bạn úp mặt tướng, bạn được rút 1 lá và \ncó thể sử dụng thẻ công cụ hoặc thẻ trang bị: \n Nếu bạn làm vậy, bạn có thể loại bỏ các thẻ cùng loại trên bàn.", --每当你的武将牌翻面后，你可以摸一张牌，然后你可以使用一张锦囊牌或装备牌：若如此做，此牌结算后，你可以弃置场上一张同类型的牌。
+	["@jiewei"] = "Bạn có thể sử dụng thẻ công cụ hoặc thẻ trang bị.", --你可以使用一张锦囊牌或装备牌
+	["@jiewei-discard"] = "Bạn có thể hủy bỏ 1 lá cùng loại với lá bạn đã dùng của một người chơi trên bàn.", --你可以弃置一名角色场上与你使用的牌同类型的牌
 
-	["#huangzhong"] = "老当益壮",
-	["huangzhong"] = "黄忠",
-	["liegong"] = "烈弓",
-	[":liegong"] = "每当你于出牌阶段内指定【杀】的目标后，若目标角色的手牌数大于或等于你的体力值，或目标角色的手牌数小于或等于你的攻击范围，你可以令该角色不能使用【闪】响应此【杀】。",
+	["#huangzhong"] = "Lão Đương Ích Tráng", --老当益壮
+	["huangzhong"] = "Hoàng Trung", --黄忠
+	["liegong"] = "Liệt Cung", --烈弓
+	[":liegong"] = "Khi bạn 【Sát】 một người chơi khác trong lượt, \nnếu bài trên tay mục tiêu lớn hơn hoặc bằng máu hiện tại của bạn, \n hoặc nếu bài trên tay mục tiêu ít hơn hoặc bằng tầm đánh của bạn: \n mục tiêu không thể sử dụng 【Tránh】.", --每当你于出牌阶段内指定【杀】的目标后，若目标角色的手牌数大于或等于你的体力值，或目标角色的手牌数小于或等于你的攻击范围，你可以令该角色不能使用【闪】响应此【杀】。
 
 	["#weiyan"] = "嗜血的独狼",
 	["weiyan"] = "魏延",
