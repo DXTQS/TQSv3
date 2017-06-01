@@ -1,7 +1,7 @@
 -- translation for Wind Package
 
 return {
-	["wind"] = "Phong Bao", --风包
+	["wind"] = "Phong", --风包
 
 	["#xiahouyuan"] = "Tật Hành Đích Liệp Báo",
 	["xiahouyuan"] = "Hạ Hầu Uyên", --夏侯渊

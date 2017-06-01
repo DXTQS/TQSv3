@@ -1,7 +1,7 @@
 -- translation for Standard General Package
 
 return {
-	["standard"] = "Bản Tiêu Chuẩn", --标准版
+	["standard"] = "Tiêu Chuẩn", --标准版
 
 	-- 魏势力
 	["#caocao"] = "Ngụy Vũ Đế", --
