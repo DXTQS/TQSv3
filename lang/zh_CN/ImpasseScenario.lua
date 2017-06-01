@@ -1,5 +1,5 @@
 return {
-	["impasse_fight"] = "绝境之战",
+	["impasse_fight"] = "Tuyệt Cảnh Chi Chiến", --绝境之战 
 
 	["silue"] = "思略",
 	[":silue"] = "<font color=\"blue\"><b>锁定技，</b></font>摸牌阶段，你始终摸X张牌，X为你当前的体力值；进入暴走状态后，摸牌阶段始终从其他存活角色那各摸一张牌",

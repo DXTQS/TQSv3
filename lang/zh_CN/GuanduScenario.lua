@@ -1,9 +1,9 @@
 -- translation for GuanduScenario
 
 return {
-	["guandu"] = "官渡之战",
+	["guandu"] = "Quan Độ Chi Chiến",
 
-	["smalltuxi"] = "小突袭",
+	["smalltuxi"] = "Tiểu Đột Tập", --小突袭
 	[":smalltuxi"] = "摸牌阶段开始时，你可以放弃摸牌并获得一名其他角色的一张手牌。",
 	["@smalltuxi-card"] = "你可以发动“小突袭”",
 	["~smalltuxi"] = "选择一名其他角色→点击确定",
