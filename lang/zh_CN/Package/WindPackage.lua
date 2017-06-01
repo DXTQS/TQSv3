@@ -27,25 +27,25 @@ return {
 	["liegong"] = "Liệt Cung", --烈弓
 	[":liegong"] = "Khi bạn 【Sát】 một người chơi khác trong lượt, \nnếu bài trên tay mục tiêu lớn hơn hoặc bằng máu hiện tại của bạn, \n hoặc nếu bài trên tay mục tiêu ít hơn hoặc bằng tầm đánh của bạn: \n mục tiêu không thể sử dụng 【Tránh】.", --每当你于出牌阶段内指定【杀】的目标后，若目标角色的手牌数大于或等于你的体力值，或目标角色的手牌数小于或等于你的攻击范围，你可以令该角色不能使用【闪】响应此【杀】。
 
-	["#weiyan"] = "嗜血的独狼",
-	["weiyan"] = "魏延",
+	["#weiyan"] = "Thị Huyết Đích Độc Lang", --嗜血的独狼
+	["weiyan"] = "Ngụy Diên", --魏延
 	["illustrator:weiyan"] = "SoniaTang",
-	["kuanggu"] = "狂骨",
-	[":kuanggu"] = "锁定技。每当你对一名距离1以内角色造成1点伤害后，你回复1点体力。",
+	["kuanggu"] = "Cuồng Cốt", --狂骨
+	[":kuanggu"] = "Tỏa Định Kĩ. Đơn giản lắm: Gây 1 sát thương, hồi lại 1 máu, EZ.",
 
-	["#zhangjiao"] = "天公将军",
-	["zhangjiao"] = "张角",
+	["#zhangjiao"] = "Thiên Công Tướng Quân",
+	["zhangjiao"] = "Trương Giác", --张角
 	["illustrator:zhangjiao"] = "LiuHeng",
-	["leiji"] = "雷击",
-	[":leiji"] = "每当你使用或打出一张【闪】时，你可以令一名角色进行判定：若结果为黑色，你对该角色造成1点雷电伤害，且你造成此伤害时，你回复1点体力。",
-	["leiji-invoke"] = "你可以发动“雷击”<br/> <b>操作提示</b>: 选择一名角色→点击确定<br/>",
-	["guidao"] = "鬼道",
-	[":guidao"] = "每当一名角色的判定牌生效前，你可以打出一张黑色牌替换之。",
+	["leiji"] = "Lôi Kích", --雷击
+	[":leiji"] = "Bất cứ khi nào bạn dùng lá 【Tránh】, bạn có thể cho bất kỳ người chơi lật phán xét. \n Nếu là sắc đen, mục tiêu nhận 1 thiệt hại Lôi còn bạn được hồi 1 HP.", --每当你使用或打出一张【闪】时，你可以令一名角色进行判定：若结果为黑色，你对该角色造成1点雷电伤害，且你造成此伤害时，你回复1点体力。
+	["leiji-invoke"] = "Bạn có thể phát động “Lôi Kích”<br/> <b>Chú Thích</b>: Chọn mục tiêu > Nhấn OK<br/>",
+	["guidao"] = "Quỷ Đạo", --鬼道
+	[":guidao"] = "Sau khi mục tiêu lật phán xét, bạn có thể đổi kết quả phán xét bằng thẻ sắc đen trên tay. bạn được lấy thẻ phán xét cũ trước đó.", --每当一名角色的判定牌生效前，你可以打出一张黑色牌替换之。
 	["@guidao-card"] = CommonTranslationTable["@askforretrial"],
-	["~guidao"] = "选择一张黑色牌→点击确定",
-	["huangtian"] = "黄天",
-	[":huangtian"] = "主公技。阶段技。其他群雄角色的出牌阶段，该角色可以交给你一张【闪】或【闪电】。",
-	["huangtian_attach"] = "黄天送牌",
+	["~guidao"] = "Chọn một thẻ sắc đen rồi nhấn OOK.",
+	["huangtian"] = "Hoàng Thiên", --黄天
+	[":huangtian"] = "Chủ Công Kĩ. Giai Đoạn Kĩ. Người chơi khác có thể cấp cho bạn thẻ 【Tránh】 hoặc 【Thiểm Điện】 trong lượt của họ.", --主公技。阶段技。其他群雄角色的出牌阶段，该角色可以交给你一张【闪】或【闪电】。
+	["huangtian_attach"] = "Hoàng Thiên Tống Bài(?)", --黄天送牌
 
 	["#xiaoqiao"] = "矫情之花",
 	["xiaoqiao"] = "小乔",
@@ -71,10 +71,10 @@ return {
 	[":guhuo"] = "Mỗi khi bạn muốn sử dụng lá công cụ không đuy trì hoặc lá cơ bản,".. 
 				 "\nbạn có thể úp lá đó xuống và nói ra lá bạn muốn sài. Rồi các người".. 
 				 "\nchơi khác được chọn có tin bạn hay không. Nếu mọi người tin bạn, "..
-				 "\nlá đó được lật lên và tạo ra hiệu ứng đã nêu. Nếu có người chơi "
-				 "\nnghi ngờ, lá đó được lật. Nếu bạn nói sự thật, tất cả người chơi "
-				 "\nnghi ngờ mất một máu. Nếu bạn không nói thật, người chơi nghi ngờ "
-				 "\nđược rút 1 lá. Nếu tất cả đều nghi ngờ và bạn nói sự thật và "
+				 "\nlá đó được lật lên và tạo ra hiệu ứng đã nêu. Nếu có người chơi " ..
+				 "\nnghi ngờ, lá đó được lật. Nếu bạn nói sự thật, tất cả người chơi " ..
+				 "\nnghi ngờ mất một máu. Nếu bạn không nói thật, người chơi nghi ngờ " ..
+				 "\nđược rút 1 lá. Nếu tất cả đều nghi ngờ và bạn nói sự thật và " ..
 				 "\nthẻ bài là Cơ, lá đó gây hiệu quả. Nếu không lá đó bị bỏ.",
 	["chanyuan"] = "Triền Oán",
 	[":chanyuan"] = "Tọa Định Kĩ. Bạn không thể nghi ngờ “Cổ Hoặc”. "
