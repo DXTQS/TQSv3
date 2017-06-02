@@ -35,21 +35,13 @@ return {
 	["iron_chain"] = "Thiết Tác Liên Hoàn", --铁索连环
 	[":iron_chain"] = "Thẻ công cụ.<br /><b>Sử dụng</b>：Trong lượt hành động.<br /><b>Mục Tiêu</b>：1 đến 2 mục tiêu<br /><b>Hiệu Quả</b>：Xích hoặc Tháo xích những mục tiêu chỉ định<br />Chú thích： Có thể bỏ thẻ này để rút 1 thẻ khác.",
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 	["supply_shortage"] = "Bin Lương Thốn Đoạn", --兵粮寸断
 	[":supply_shortage"] = "Thẻ công cụ duy trì.<br /><b>Sử dụng</b>：Trong lượt hành động<br /><b>Mục Tiêu</b>：Một người chơi khác trong tầm 1.<br /><b>Hiệu Quả</b>： Đặt lá này vào vùng phán xét của 1 mục tiêu: Mục tiêu rút phán xét, nếu không phải Chuồng (chuồng) sẽ bỏ qua lượt rút bài. ",
 
 	["hualiu"] = "Hoa Lưu", --骅骝
-=======
-=======
->>>>>>> 925597b349d2bbe97a002b4c50c3db6343b98a16
 	["supply_shortage"] = "兵粮寸断",--兵粮寸断
 	[":supply_shortage"] = "延时锦囊牌<br /><b>Sử dụng</b>：出牌阶段<br /><b>Mục Tiêu</b>：距离1的一名其他角色<br /><b>Hiệu Quả</b>：将此牌置于目标角色判定区内。其判定阶段进行判定：若结果不为梅花，其跳过摸牌阶段。然后将【兵粮寸断】置入弃牌堆。",
 
 	["hualiu"] = "骅骝",--骅骝
-<<<<<<< HEAD
->>>>>>> 925597b349d2bbe97a002b4c50c3db6343b98a16
-=======
->>>>>>> 925597b349d2bbe97a002b4c50c3db6343b98a16
+
 }
