@@ -60,7 +60,7 @@ return {
 	[":luoyi"] = "Bạn có thẻ bỏ qua lượt rút bài để lật 3 thẻ từ chồng bài. Và được lấy các thẻ Vũ Khí, Quyết Đấu, và thẻ cơ bản;  Nếu tính năng này được kích hoạt, sát thương gây ra từ thẻ 【Sát】 và 【Quyết Đấu】 được +1 cho đến đầu lượt tiếp theo của bạn.",
 	["#LuoyiBuff"] = "%from 的“<font color=\"yellow\"><b>Lỏa Y</b></font>”Kích hoạt hiệu quả，sát thương từ %arg Tăng %arg2 điểm",
 
-	["#zhenji"] = "薄幸的美人",
+	["#zhenji"] = "Bạc Hạnh Đích Mĩ Nhân",--薄幸的美人
 	["zhenji"] = "Chân Thị", --甄姬
 	["luoshen"] = "Lạc Thần", --洛神
 	[":luoshen"] = "Đầu lượt phán xét, bạn có thể chọn để rút phán xét. nếu là thẻ sắc Đen bạn có thể tiếp túc lật phán xét đến khi nào lật ra thẻ Đỏ. Bạn được giữ tất cả thẻ đen đã rút trước đó.",
@@ -203,7 +203,7 @@ return {
 	[":fanjian"] = "Giai Đoạn Kĩ. Chọn một chất trên tay và đưa người chơi khác, người đó phải chọn: hoặc là mất một máu hoặc cho xem tất cả bài trên tay và bỏ các thẻ cùng chất với thẻ bạn đưa.", --阶段技。你可以选择一种花色并交给一名其他角色一张该花色的手牌，然后该角色选择一项：展示所有手牌并弃置所有该花色的牌，或失去1点体力。
 	["fanjian_discard:prompt"] = "Hiện tất cả bài trên tay và chọn bỏ %arg ",
 
-	["#huanggai"] = "KHINH THÂN VỊ QUỐC",
+	["#huanggai"] = "Kinh Thân Vị Quốc",
 	["huanggai"] = "Hoàng Cái",
 	["illustrator:huanggai"] = "G.G.G.",
 	["kurou"] = "Khổ Nhục",
@@ -211,7 +211,7 @@ return {
 	["zhaxiang"] = "Trá Hàng",
 	[":zhaxiang"] = "Tọa Định Kỉ。Khi bạn bị mất một máu, nếu đang trong lượt của bạn, bạn được dùng thêm 1 lá SÁT, và nếu dùng lá SÁT đỏ sẽ không giới hạn tầm và không thể TRÁNH。",
 
-	["#luxun"] = "NHO SANH HÙNG TÀI",
+	["#luxun"] = "Nho Sanh Hùng Tài",
 	["luxun"] = "Lục Tốn",
 	["illustrator:luxun"] = "depp",
 	["qianxun"] = "Khiêm Tốn",
@@ -221,7 +221,7 @@ return {
 	["@lianying-card"] = "Bạn có thể kích hoạt LIÊN DOANH để  %arg có thể rút 1 lá bài.",
 	["~lianying"] = "Chọn các người chơi khác → Bấm OK",
 
-	["#daqiao"] = "CĂNG TRÌ CHI HOA",
+	["#daqiao"] = "Căng Trì Chi Hoa",
 	["daqiao"] = "Đại Kiều",
 	["illustrator:daqiao"] = "DH",
 	["guose"] = "Quốc Sắc",
@@ -231,7 +231,7 @@ return {
 	["~liuli"] = "Chọn 1 lá → chọn 1 người chơi → Bấm OK",
 	["@liuli"] = "%src sử dụng ”",
 
-	["#sunshangxiang"] = "CUNG YÊU CƠ",
+	["#sunshangxiang"] = "Cung Yêu Cơ",
 	["sunshangxiang"] = "Tôn Thượng Hương",
 	["jieyin"] = "Kết Nhân",
 	[":jieyin"] = "Giai Đoạn Kĩ.Bạn có thể bỏ 2 lá và chọn một người chơi nam đã mất máu: rồi bạn và người đó được hồi 1 máu。",
@@ -248,10 +248,11 @@ return {
 	["@wushuang-slash-1"] = "%src cùng bạn 【Quyết Đấu】, bạn phải bỏ 2 thẻ 【Sát】",
 	["@wushuang-slash-2"] = "%src cùng bạn 【Quyết Đấu】, hãy bỏ tiếp 1 thẻ 【Sát】",
 	["liyu"] = "Lợi Ngự",
-	[":liyu"] = "Khi bạn gây sát thương lên người chơi khác, người đó có thể cho bạn một lá bài và chọn một người chơi khác, rồi bạn QUYẾT ĐẤU với người vừa được chọn。",--每当你使用【杀】对一名其他角色造成伤害后，该角色可以令你获得其一张牌：若如此做，视为你对由该角色选择的另一名角色使用一张【决斗】。
+	[":liyu"] = "Khi bạn gây sát thương lên người chơi khác, người đó có thể cho bạn một lá bài và chọn một người chơi khác, rồi bạn QUYẾT ĐẤU với người vừa được chọn。",			
+			   --每当你使用【杀】对一名其他角色造成伤害后，该角色可以令你获得其一张牌：若如此做，视为你对由该角色选择的另一名角色使用一张【决斗】。
 	["@liyu"] = "Hãy chọn một người chơi để  %src QUYẾT ĐẤU",
 
-	["#huatuo"] = "THẦY Y",
+	["#huatuo"] = "Thần Y",
 	["huatuo"] = "Hoa Đà",
 	["illustrator:huatuo"] = "琛·美弟奇",
 	["chuli"] = "Trừ Lệ",
@@ -260,7 +261,7 @@ return {
 	["jijiu"] = "Cấp Cứu",
 	[":jijiu"] = "Ngoài lượt của bạn, bạn được dùng lá ĐỎ như lá ĐÀO。",
 
-	["#diaochan"] = "TUYỆT THẾ VŨ CƠ",
+	["#diaochan"] = "Tuyệt Thế Đích Vũ Cơ",
 	["diaochan"] = "Điêu Thuyền",
 	["illustrator:diaochan"] = "MỘC MĨ NHÂN",
 	["lijian"] = "Li Gián",
@@ -268,7 +269,7 @@ return {
 	["biyue"] = "Bế Nguyệt",
 	[":biyue"] = "Có thể rút 1 thẻ bài vào cuối lượt.",
 
-	["#st_yuanshu"] = "DÃ TÂM TIỀM TĂNG",
+	["#st_yuanshu"] = "Dã Tâm Tiềm Tăng",
 	["st_yuanshu"] = "Viên Thuật",
 	["illustrator:st_yuanshu"] = "LiuHeng",
 	["wangzun"] = "Vọng Tôn",
@@ -276,7 +277,7 @@ return {
 	["tongji"] = "Đồng Tật",
 	[":tongji"] = "Tọa Định Kỉ. Nếu số bài trên tay bạn lớn hơn số máu, và bạn đang trong tầm đánh của 1 người chơi, những người chơi khác không thể trở thành mục tiêu của lá SÁT.",
 
-	["#st_huaxiong"] = "PHI DƯƠNG BẠT HỔ",
+	["#st_huaxiong"] = "Phi Dương Bạt hổ",
 	["st_huaxiong"] = "Hoa Hùng",
 	["illustrator:st_huaxiong"] = "ĐỊA NGỤC HỔ",
 	["yaowu"] = "Diệu Vũ",
@@ -284,41 +285,41 @@ return {
 	["yaowu:recover"] = "Hồi 1 máu",
 	["yaowu:draw"] = "Lấy 1 lá.",
 
-	["st_gongsunzan"] = "CÔNG TÔN TOẢN",--公孙瓒
+	["st_gongsunzan"] = "Công Tôn Toản",--公孙瓒
 	["illustrator:st_gongsunzan"] = "Công Tôn Toản",
 	["qiaomeng"] = "Chiêu Mãnh",
 	[":qiaomeng"] = "Khi bạn gây sát thương thành công lên một người chơi khác bằng SÁT đen, \nbạn có thể bỏ một lá trong khu vực của người chơi đó: \nNếu lá đó là CHIẾN MÃ, bạn nhận được lá đó.",--每当你使用黑色【杀】对一名角色造成伤害后，你可以弃置该角色装备区的一张牌：若此牌为坐骑牌，此牌置入弃牌堆时你获得之。
 
 	-- Test
-	["test"] = "TRẮC THÍ",
+	["test"] = "Trắc Thí",
 
-	["zhiba_sunquan"] = "CHẾ BÁ TÔN QUYỀN",
+	["zhiba_sunquan"] = "Chế Bá Tôn Quyền",
 	["&zhiba_sunquan"] = "Tôn Quyền",
-	["super_zhiheng"] = "CHẾ HOÀNH",
+	["super_zhiheng"] = "Chế Hành",
 	[":super_zhiheng"] = "Bạn được bỏ X+1 lá bài, rồi được lấy lên cùng số bài đã bỏ (X là số máu bạn đã mất).",
 
-	["wuxing_zhugeliang"] = "NGŨ TINH GIA CÁT",
+	["wuxing_zhugeliang"] = "Ngũ Tinh Gia Cát",
 	["&wuxing_zhugeliang"] = "Gia Cát Lượng",
-	["super_guanxing"] = "QUAN TINH",
+	["super_guanxing"] = "Quan Tinh",
 	[":super_guanxing"] = "Đầu giai đoạn chuẩn bị, bạn được xem 5 lá bài trên cùng, sau đó có quyền thay đổi thứ tự các thẻ này xếp vào đầu hoặc đáy tập thẻ rồi vào lượt rút bài.",
 
-	["super_yuanshu"] = "TRẮC THÍ VIÊN THUẬT",
+	["super_yuanshu"] = "Trắc Thí Viên Thuật",
 	["&super_yuanshu"] = "Viên Thuật",
 	["illustrator:super_yuanshu"] = "NGÔ HẠO",
-	["super_yongsi"] = "DUNG TỨ",
+	["super_yongsi"] = "Dung Tú",
 	[":super_yongsi"] = "Tọa Định Kỉ. Trong giai đoạn rút bài, bạn được rút 6 lá. \nĐầu giai đoạn xả bài, bạn phải bỏ 4 lá.",-- Tọa Định Kỉ. Trong giai đoạn rút bài, bạn được rút X lá. Đầu giai đoạn xả bài, bạn phải bỏ X lá.
 
-	["super_caoren"] = "TRẮC THÍ TÀO NHÂN",
+	["super_caoren"] = "Trắc Thí Tào Nhân",
 	["&super_caoren"] = "Tào Nhân",
-	["super_jushou"] = "CƯ THÚ",
+	["super_jushou"] = "Cư Thú",
 	[":super_jushou"] = "Cuối lượt, bạn được rút 5 lá, rồi úp mặt tướng",--Cuối lượt, bạn được rút X lá, rồi úp mặt tướng: Test thử thấy X là 5?????
 
-	["super_max_cards"] = "THỦ BÀI THƯỢNG HẠN",
+	["super_max_cards"] = "Thủ bài thượng hạn",
 	["super_offensive_distance"] = "Tầm đánh -X",
 	["super_defensive_distance"] = "Tầm đánh +X",
 
-	["#gaodayihao"] = "THẦN UY NHƯ LONG",
-	["gaodayihao"] = "CAO ĐẠT NHẤT HIỆU",
+	["#gaodayihao"] = "Thần Uy Như Long",
+	["gaodayihao"] = "Cao Đạt Nhất Hiệu",
 	["illustrator:gaodayihao"] = "Ba Tát Tiểu Mã",
 	["gdjuejing"] = "Tuyệt Cảnh",
 	[":gdjuejing"] = "Tọa Định Kĩ.Vào lượt rút bài，bạn bỏ qua lượt rút bài。Khi số bài trên tay thay đổi，nếu không cầm 4 lá，bạn phải lấy hoặc bỏ để số bài về 4.",
