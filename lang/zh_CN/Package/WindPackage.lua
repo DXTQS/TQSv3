@@ -1,85 +1,102 @@
 -- translation for Wind Package
 
 return {
-	["wind"] = "风包",
+	["wind"] = "Phong", --风包
 
-	["#xiahouyuan"] = "疾行的猎豹",
-	["xiahouyuan"] = "夏侯渊",
-	["shensu"] = "神速",
-	[":shensu"] = "你可以选择一至两项：跳过判定阶段和摸牌阶段，或跳过出牌阶段并弃置一张装备牌：你每选择上述一项，视为你使用一张无距离限制的【杀】。",
-	["@shensu1"] = "你可以跳过判定阶段和摸牌阶段发动“神速”",
-	["@shensu2"] = "你可以跳过出牌阶段并弃置一张装备牌发动“神速”",
-	["~shensu1"] = "选择【杀】的目标角色→点击确定",
-	["~shensu2"] = "选择一张装备牌→选择【杀】的目标角色→点击确定",
+	["#xiahouyuan"] = "Tật Hành Đích Liệp Báo",
+	["xiahouyuan"] = "Hạ Hầu Uyên", --夏侯渊
+	["shensu"] = "Thần Tốc", --神速
+	[":shensu"] = "Bạn có thể thực hiện 1 hoặc cả 2 lựa chọn sau để dùng lá 【Sát】 tấn công người chơi bất kỳ không giới hạn tầm đánh: \n1. Bỏ qua giai đoạn rút phán xét và giai đoạn rút bài. \n2. Bỏ qua giai đoạn dùng bài và bỏ 1 trang bị.", --你可以选择一至两项：跳过判定阶段和摸牌阶段，或跳过出牌阶段并弃置一张装备牌：你每选择上述一项，视为你使用一张无距离限制的【杀】。
+	["@shensu1"] = "Bạn có thể bỏ qua giai đoạn rút phán xét và giai đoạn rút bài để phát động \"Thần Tốc\".",
+	["@shensu2"] = "Bạn có thể bỏ qua giai đoạn dùng bài và bỏ một trang bị để phát động \"Thần Tốc\".", --你可以跳过出牌阶段并弃置一张装备牌发动“神速”
+	["~shensu1"] = "Chọn mục tiêu của lá 【Sát】 rồi nhấn OK", --选择【杀】的目标角色→点击确定
+	["~shensu2"] = "Chọn một trang bị cần hủy > Chọn mục tiêu của lá 【Sát】 rồi nhấn OK.", --选择一张装备牌→选择【杀】的目标角色→点击确定
 
-	["#caoren"] = "大将军",
-	["caoren"] = "曹仁",
+	["#caoren"] = "Đại Tướng Quân", --大将军
+	["caoren"] = "Tào Nhân", --曹仁
 	["illustrator:caoren"] = "Ccat",
-	["jushou"] = "据守",
-	[":jushou"] = "结束阶段开始时，你可以摸一张牌，然后将武将牌翻面。",
-	["jiewei"] = "解围",
-	[":jiewei"] = "每当你的武将牌翻面后，你可以摸一张牌，然后你可以使用一张锦囊牌或装备牌：若如此做，此牌结算后，你可以弃置场上一张同类型的牌。",
-	["@jiewei"] = "你可以使用一张锦囊牌或装备牌",
-	["@jiewei-discard"] = "你可以弃置一名角色场上与你使用的牌同类型的牌",
+	["jushou"] = "Cư Thú", --据守
+	[":jushou"] = "Cuối lượt, Bạn có thể rút một lá và úp mặt tướng.", --结束阶段开始时，你可以摸一张牌，然后将武将牌翻面。
+	["jiewei"] = "Giải Vi", --解围
+	[":jiewei"] = "Bất cứ khi nào bạn úp mặt tướng, bạn được rút 1 lá và \ncó thể sử dụng thẻ công cụ hoặc thẻ trang bị: \n Nếu bạn làm vậy, bạn có thể loại bỏ các thẻ cùng loại trên bàn.", --每当你的武将牌翻面后，你可以摸一张牌，然后你可以使用一张锦囊牌或装备牌：若如此做，此牌结算后，你可以弃置场上一张同类型的牌。
+	["@jiewei"] = "Bạn có thể sử dụng thẻ công cụ hoặc thẻ trang bị.", --你可以使用一张锦囊牌或装备牌
+	["@jiewei-discard"] = "Bạn có thể hủy bỏ 1 lá cùng loại với lá bạn đã dùng của một người chơi trên bàn.", --你可以弃置一名角色场上与你使用的牌同类型的牌
 
-	["#huangzhong"] = "老当益壮",
-	["huangzhong"] = "黄忠",
-	["liegong"] = "烈弓",
-	[":liegong"] = "每当你于出牌阶段内指定【杀】的目标后，若目标角色的手牌数大于或等于你的体力值，或目标角色的手牌数小于或等于你的攻击范围，你可以令该角色不能使用【闪】响应此【杀】。",
+	["#huangzhong"] = "Lão Đương Ích Tráng", --老当益壮
+	["huangzhong"] = "Hoàng Trung", --黄忠
+	["liegong"] = "Liệt Cung", --烈弓
+	[":liegong"] = "Khi bạn 【Sát】 một người chơi khác trong lượt, \nnếu bài trên tay mục tiêu lớn hơn hoặc bằng máu hiện tại của bạn, \n hoặc nếu bài trên tay mục tiêu ít hơn hoặc bằng tầm đánh của bạn: \n mục tiêu không thể sử dụng 【Tránh】.", --每当你于出牌阶段内指定【杀】的目标后，若目标角色的手牌数大于或等于你的体力值，或目标角色的手牌数小于或等于你的攻击范围，你可以令该角色不能使用【闪】响应此【杀】。
 
-	["#weiyan"] = "嗜血的独狼",
-	["weiyan"] = "魏延",
+	["#weiyan"] = "Thị Huyết Đích Độc Lang", --嗜血的独狼
+	["weiyan"] = "Ngụy Diên", --魏延
 	["illustrator:weiyan"] = "SoniaTang",
-	["kuanggu"] = "狂骨",
-	[":kuanggu"] = "锁定技。每当你对一名距离1以内角色造成1点伤害后，你回复1点体力。",
+	["kuanggu"] = "Cuồng Cốt", --狂骨
+	[":kuanggu"] = "Tỏa Định Kĩ. Đơn giản lắm: Gây 1 sát thương, hồi lại 1 máu, EZ.",
 
-	["#zhangjiao"] = "天公将军",
-	["zhangjiao"] = "张角",
+	["#zhangjiao"] = "Thiên Công Tướng Quân",
+	["zhangjiao"] = "Trương Giác", --张角
 	["illustrator:zhangjiao"] = "LiuHeng",
-	["leiji"] = "雷击",
-	[":leiji"] = "每当你使用或打出一张【闪】时，你可以令一名角色进行判定：若结果为黑色，你对该角色造成1点雷电伤害，且你造成此伤害时，你回复1点体力。",
-	["leiji-invoke"] = "你可以发动“雷击”<br/> <b>操作提示</b>: 选择一名角色→点击确定<br/>",
-	["guidao"] = "鬼道",
-	[":guidao"] = "每当一名角色的判定牌生效前，你可以打出一张黑色牌替换之。",
+	["leiji"] = "Lôi Kích", --雷击
+	[":leiji"] = "Bất cứ khi nào bạn dùng lá 【Tránh】, bạn có thể cho bất kỳ người chơi lật phán xét. \n Nếu là sắc đen, mục tiêu nhận 1 thiệt hại Lôi còn bạn được hồi 1 HP.", --每当你使用或打出一张【闪】时，你可以令一名角色进行判定：若结果为黑色，你对该角色造成1点雷电伤害，且你造成此伤害时，你回复1点体力。
+	["leiji-invoke"] = "Bạn có thể phát động “Lôi Kích”<br/> <b>Chú Thích</b>: Chọn mục tiêu > Nhấn OK<br/>",
+	["guidao"] = "Quỷ Đạo", --鬼道
+	[":guidao"] = "Sau khi mục tiêu lật phán xét, bạn có thể đổi kết quả phán xét bằng thẻ sắc đen trên tay. bạn được lấy thẻ phán xét cũ trước đó.", --每当一名角色的判定牌生效前，你可以打出一张黑色牌替换之。
 	["@guidao-card"] = CommonTranslationTable["@askforretrial"],
-	["~guidao"] = "选择一张黑色牌→点击确定",
-	["huangtian"] = "黄天",
-	[":huangtian"] = "主公技。阶段技。其他群雄角色的出牌阶段，该角色可以交给你一张【闪】或【闪电】。",
-	["huangtian_attach"] = "黄天送牌",
+	["~guidao"] = "Chọn một thẻ sắc đen rồi nhấn OOK.",
+	["huangtian"] = "Hoàng Thiên", --黄天
+	[":huangtian"] = "Chủ Công Kĩ. Giai Đoạn Kĩ. Người chơi khác có thể cấp cho bạn thẻ 【Tránh】 hoặc 【Thiểm Điện】 trong lượt của họ.", --主公技。阶段技。其他群雄角色的出牌阶段，该角色可以交给你一张【闪】或【闪电】。
+	["huangtian_attach"] = "Hoàng Thiên Tống Bài(?)", --黄天送牌
 
-	["#xiaoqiao"] = "矫情之花",
-	["xiaoqiao"] = "小乔",
-	["hongyan"] = "红颜",
-	[":hongyan"] = "锁定技。你的黑桃牌视为红桃牌。",
-	["tianxiang"] = "天香",
-	[":tianxiang"] = "每当你受到伤害时，你可以弃置一张红桃手牌并选择一名其他角色：若如此做，你将此伤害转移给该角色，此伤害结算后该角色摸X张牌（X为该角色已损失的体力值）。",
-	["@tianxiang-card"] = "请选择“天香”的目标",
-	["~tianxiang"] = "选择一张<font color=\"red\">♥</font>手牌→选择一名其他角色→点击确定",
+	["#xiaoqiao"] = "Kiểu Tình Chi Hoa",
+	["xiaoqiao"] = "Tiểu Kiều",
+	["hongyan"] = "Hồng Nhan",
+	[":hongyan"] = "Tọa Định Kĩ. Lá ♠ như lá ♥.",
+	["tianxiang"] = "Thiên Hương",
+	[":tianxiang"] = "Mỗi khi bạn nhận sát thương, bạn có thể bỏ 1 lá ♥ và chọn 1 người chơi khác rồi chuyển sát thương cho người đó, người đó sẽ rút X lá (X là số máu bị mất).",
+	["@tianxiang-card"] = "Hãy chọn mục tiêu",
+	["~tianxiang"] = "Chọn 1 lá <font color=\"red\">♥</font>  → chọn người chơi khác  → bấm OK.",
 
-	["#zhoutai"] = "历战之驱",
-	["zhoutai"] = "周泰",
+	["#zhoutai"] = "Lịch Chiến Chi Khu",
+	["zhoutai"] = "Chu Thái",
 	["illustrator:zhoutai"] = "Thinking",
-	["buqu"] = "不屈",
-	[":buqu"] = "锁定技。每当你处于濒死状态时，你将牌堆顶的一张牌置于武将牌上：若无同点数的“不屈牌”，你回复至1点体力；否则你将此牌置入弃牌堆。若你有“不屈牌”，你的手牌上限等于“不屈牌”的数量。",
-	["fenji"] = "奋激",
-	[":fenji"] = "每当一名角色的手牌因另一名角色的弃置或获得为手牌（交给与交换除外）而失去后，若你的体力值大于0，你可以失去1点体力：若如此做，该角色摸两张牌。",
+	["buqu"] = "Bất Khuất",
+	[":buqu"] = "Khi bạn thái hấp hối, bạn rút 1 lá từ chồng bài rồi" ..
+				"\nđặt lên lá tướng: Nếu không có Lá Bất Khuất cùng điểm,"..
+				"\nthì bạn được hồi 1 máu; và giới hạn trữ bài trên tay "..
+				"\nbằng số lượng Lá Bất Khuất.",
+	["fenji"] = "Phấn Khích",
+	[":fenji"] = "Khi 1 lá của 1 người chơi bị bỏ hoặc lấy bởi một"..
+				"\nngười chơi khác (ngoại trừ cấp bài và đổi bài), nếu số máu của"..
+				"\nbạn lớn hơn 0, bạn mất 1 máu: rồi người đó được rút 2 lá.",
 
-	["#yuji"] = "太平道人",
-	["yuji"] = "于吉",
+	["#yuji"] = "Thái Bình Đạo Nhân",
+	["yuji"] = "Vu Cát",
 	["illustrator:yuji"] = "魔鬼鱼",
-	["guhuo"] = "蛊惑",
-	[":guhuo"] = "你可以扣置一张手牌当做一张基本牌或非延时锦囊牌使用或打出，其他角色选择是否质疑：若无角色质疑，你展示此牌，取消不合法的目标并按你所述继续结算；若有角色质疑，中止质疑询问并展示此牌：若此牌为真，该角色获得“缠怨”（锁定技。你不能质疑“蛊惑”。若你的体力值为1，你的其他武将技能无效。），取消不合法的目标并按你所述继续结算；否则你将之置入弃牌堆。每名角色的回合限一次。",
-	["chanyuan"] = "缠怨",
-	[":chanyuan"] = "锁定技。你不能质疑“蛊惑”。若你的体力值为1，你的其他武将技能无效。",
-	["question"] = "质疑",
-	["noquestion"] = "不质疑",
-	["guhuo_saveself"] = "“蛊惑”【桃】或【酒】",
-	["guhuo_slash"] = "“蛊惑”【杀】",
-	["normal_slash"] = "普通杀",
-	["#Guhuo"] = "%from 发动了“%arg2”，声明此牌为 【%arg】，指定的目标为 %to",
-	["#GuhuoNoTarget"] = "%from 发动了“%arg2”，声明此牌为 【%arg】",
-	["#GuhuoCannotQuestion"] = "%from 当前体力值为 %arg，无法质疑",
-	["#GuhuoQuery"] = "%from 表示 %arg",
-	["$GuhuoResult"] = "%from 的“<font color=\"yellow\"><b>蛊惑</b></font>”牌是 %card",
-	["#Chanyuan"] = "%from 的“%arg”被触发，无法质疑",
+	["guhuo"] = "Cổ Hoặc",
+	[":guhuo"] = "Mỗi khi bạn muốn sử dụng lá công cụ không duy trì"..
+				"\nhoặc lá cơ bản, bạn có thể nói ra lá muốn sài rồi "..
+				"\ngiữ lá đó trên tay, những người chơi khác được chọn"..
+				"\ncó tin hay không: Nếu mọi người đều tin, thì lá đó trở"..
+				"\nthành lá bạn nói; nếu có người không tin, thì lá đó được"..
+				"\nlật lên, nếu lá đó đúng, người chơi bị Triền Oán "..
+				"\n(Tọa Định Kĩ. Bạn không thể không tin Cổ Hoặc. Nếu bạn"..
+				"\ncòn 1 máu, không thể sử dụng kĩ năng.), rồi bạn sử dụng"..
+				"\nlá đó bình thường, nếu lá đó sai lá đó bị hủy. Chỉ tác"..
+				"\nđộng một lần lên một người chơi. ",
+				 
+	["chanyuan"] = "Triền Oán",
+	[":chanyuan"] = "Tọa Định Kĩ. Bạn không thể nghi ngờ “Cổ Hoặc”. "..
+					"\nNếu bạn còn 1 máu bạn không sử dụng được kĩ năng.",
+	["question"] = "Không Tin",
+	["noquestion"] = "Tin",
+	["guhuo_saveself"] = "Cổ Hoặc lá Đào hoặc lá Rượu",
+	["guhuo_slash"] = "“Cổ Hoặc lá Sát",
+	["normal_slash"] = "Sát thường",
+	["#Guhuo"] = "%from sử dụng “%arg2”，nói lá này là lá 【%arg】，mục tiêu là %to",
+	["#GuhuoNoTarget"] = "%from sử dụng“%arg2”，nói lá này là 【%arg】",
+	["#GuhuoCannotQuestion"] = "%from có số màu là %arg，không thể nghi ngờ",
+	["#GuhuoQuery"] = "%from đã nói %arg",
+	["$GuhuoResult"] = "%from đã sử dụng “<font color=\"yellow\"><b>Cổ Hoặc</b></font>”  là lá %card",
+	["#Chanyuan"] = "%from  đã kích hoạt “%arg”，không thể bị nghi ngờ.",
 }
+	
