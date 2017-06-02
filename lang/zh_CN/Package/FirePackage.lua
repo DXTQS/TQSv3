@@ -36,7 +36,7 @@ return {
 	["#pangtong"] = "Phượng Sồ",
 	["pangtong"] = "Bàng Thống",
 	["lianhuan"] = "Liên Hoàn",
-	[":lianhuan"] = "Bạn có thể sử dụng lá Chuồn như 【Thiết Tác Liên Hoàn】。",
+	[":lianhuan"] = "Bạn có thể sử dụng lá ♣ như 【Thiết Tác Liên Hoàn】。",
 	["niepan"] = "Niết Bàn",
 	[":niepan"] = "Hạn Định Kĩ. Khi bạn trong trạng  thái hấp hối ，bạn có thể bỏ hết bài trên tay và khu trang bị ，rồi trở về trạng thái ban đầu ，rút 3 lá và trở lại với 3 máu。",
 	["$NiepanAnimate"] = "image=image/animate/niepan.png",

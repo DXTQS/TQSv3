@@ -50,9 +50,9 @@ return {
 	["#xiaoqiao"] = "Kiểu Tình Chi Hoa",
 	["xiaoqiao"] = "Tiểu Kiều",
 	["hongyan"] = "Hồng Nhan",
-	[":hongyan"] = "Tọa Định Kĩ. Lá Bích như lá Cơ.",
+	[":hongyan"] = "Tọa Định Kĩ. Lá ♠ như lá ♥.",
 	["tianxiang"] = "Thiên Hương",
-	[":tianxiang"] = "Mỗi khi bạn nhận sát thương, bạn có thể bỏ 1 lá Cơ và chọn 1 người chơi khác rồi chuyển sát thương cho người đó, người đó sẽ rút X lá (X là số máu bị mất).",
+	[":tianxiang"] = "Mỗi khi bạn nhận sát thương, bạn có thể bỏ 1 lá ♥ và chọn 1 người chơi khác rồi chuyển sát thương cho người đó, người đó sẽ rút X lá (X là số máu bị mất).",
 	["@tianxiang-card"] = "Hãy chọn mục tiêu",
 	["~tianxiang"] = "Chọn 1 lá <font color=\"red\">♥</font>  → chọn người chơi khác  → bấm OK.",
 

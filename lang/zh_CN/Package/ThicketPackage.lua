@@ -96,7 +96,7 @@ return {
 	["dongzhuo"] = "Đổng Trác",--董卓
 	["illustrator:dongzhuo"] = "小冷",
 	["jiuchi"] = "Tửu Trì",--酒池
-	[":jiuchi"] = "Bạn có thể dùng Bích như Rượu.",--你可以将一张黑桃手牌当【酒】使用。
+	[":jiuchi"] = "Bạn có thể dùng ♠ như Rượu.",--你可以将一张黑桃手牌当【酒】使用。
 	["roulin"] = "Nhục Lâm",--肉林
 	[":roulin"] = 	"Tỏa Định Kĩ. Khi bạn dung Sát lên tướng nữ hoặc trở thành mục tiêu của lá Sát từ tướng nữ, người đó phải dùng 2 lá Tránh.",
 					--锁定技。每当你指定女性角色为【杀】的目标后，或成为女性角色的【杀】的目标后，目标角色须连续使用两张【闪】抵消此【杀】。
@@ -106,7 +106,7 @@ return {
 	["benghuai:hp"] = "Thể Lực",--体力
 	["benghuai:maxhp"] = "Thể Lực Thượng Hạn",--体力上限
 	["baonue"] = "Bạo Ngược",--暴虐
-	[":baonue"] = 	"Chủ Công Kĩ. Khi người chơi khác gây sát thương lên một người chơi, người chơi rút phán xét: nếu Bích, bạn được hồi 1 máu.",
+	[":baonue"] = 	"Chủ Công Kĩ. Khi người chơi khác gây sát thương lên một người chơi, người chơi rút phán xét: nếu ♠, bạn được hồi 1 máu.",
 					--主公技。其他群雄角色造成伤害后，该角色可以进行判定：若结果为黑桃，你回复1点体力。
 	["@baonue-to"] = "Hãy chọn mục tiêu của Bạo Ngược",--请选择“暴虐”的目标角色
 }
