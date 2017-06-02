@@ -35,8 +35,8 @@ return {
 	["iron_chain"] = "铁索连环",
 	[":iron_chain"] = "锦囊牌<br /><b>Sử dụng</b>：出牌阶段<br /><b>Mục Tiêu</b>：一至两名角色<br /><b>Hiệu Quả</b>：横置或重置目标角色的武将牌。<br />重铸：将此牌置入弃牌堆并摸一张牌。",
 
-	["supply_shortage"] = "兵粮寸断",
+	["supply_shortage"] = "兵粮寸断",--兵粮寸断
 	[":supply_shortage"] = "延时锦囊牌<br /><b>Sử dụng</b>：出牌阶段<br /><b>Mục Tiêu</b>：距离1的一名其他角色<br /><b>Hiệu Quả</b>：将此牌置于目标角色判定区内。其判定阶段进行判定：若结果不为梅花，其跳过摸牌阶段。然后将【兵粮寸断】置入弃牌堆。",
 
-	["hualiu"] = "骅骝",
+	["hualiu"] = "骅骝",--骅骝
 }
