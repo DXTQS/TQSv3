@@ -5,7 +5,7 @@ return {
 	["#BossTurnCount"] = "%from võ tướng %arg bắt đầu", 
 
 	["#boss_chi"] = "Boss Lv.1",
-	["boss_chi"] = "SI",
+	["boss_chi"] = "Si",
 	["bossguimei"] = "Quỷ mị",
 	[":bossguimei"] = "Tọa Định Kỹ。Bạn không thể trở thành mục tiêu của lá công cụ duy trì。",
 	["bossdidong"] = "Địa Động",
@@ -15,7 +15,7 @@ return {
 	[":bossshanbeng"] = "Tọa định kỹ。Khi bạn chết, tất cả người chơi phải bỏ tất cả trang bị。",
 
 	["#boss_mei"] = "Boss Lv.1",
-	["boss_mei"] = "MỊ",
+	["boss_mei"] = "Mi",
 	["bossbeiming"] = "Bi Minh",
 	[":bossbeiming"] = "Tọa định kỷ。Khi bạn chết，người giết bạn phải bỏ hết bài trên tay。",
 	["#BeimingThrow"] = "“%arg” của %from được kích hoạt，nguồn sát thương %to bỏ tất cả bài",

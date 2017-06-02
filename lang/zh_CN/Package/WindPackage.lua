@@ -1,7 +1,7 @@
 -- translation for Wind Package
 
 return {
-	["wind"] = "Phong Bao", --风包
+	["wind"] = "Phong", --风包
 
 	["#xiahouyuan"] = "Tật Hành Đích Liệp Báo",
 	["xiahouyuan"] = "Hạ Hầu Uyên", --夏侯渊
@@ -50,9 +50,9 @@ return {
 	["#xiaoqiao"] = "Kiểu Tình Chi Hoa",
 	["xiaoqiao"] = "Tiểu Kiều",
 	["hongyan"] = "Hồng Nhan",
-	[":hongyan"] = "Tọa Định Kĩ. Lá Bích như lá Cơ.",
+	[":hongyan"] = "Tọa Định Kĩ. Lá ♠ như lá ♥.",
 	["tianxiang"] = "Thiên Hương",
-	[":tianxiang"] = "Mỗi khi bạn nhận sát thương, bạn có thể bỏ 1 lá Cơ và chọn 1 người chơi khác rồi chuyển sát thương cho người đó, người đó sẽ rút X lá (X là số máu bị mất).",
+	[":tianxiang"] = "Mỗi khi bạn nhận sát thương, bạn có thể bỏ 1 lá ♥ và chọn 1 người chơi khác rồi chuyển sát thương cho người đó, người đó sẽ rút X lá (X là số máu bị mất).",
 	["@tianxiang-card"] = "Hãy chọn mục tiêu",
 	["~tianxiang"] = "Chọn 1 lá <font color=\"red\">♥</font>  → chọn người chơi khác  → bấm OK.",
 
@@ -60,19 +60,33 @@ return {
 	["zhoutai"] = "Chu Thái",
 	["illustrator:zhoutai"] = "Thinking",
 	["buqu"] = "Bất Khuất",
-	[":buqu"] = "Khi bạn thái hấp hối, bạn rút 1 lá từ chồng bài rồi đặt lên lá tướng: Nếu bạn có Lá Bất Khuất cùng điểm, thì bạn được hồi 1 máu; nếu không bạn sẽ có một Lá Bất Khuất, giới hạn trữ bài trên tay bằng số lượng Lá Bất Khuất.",
+	[":buqu"] = "Khi bạn thái hấp hối, bạn rút 1 lá từ chồng bài rồi" ..
+				"\nđặt lên lá tướng: Nếu không có Lá Bất Khuất cùng điểm,"..
+				"\nthì bạn được hồi 1 máu; và giới hạn trữ bài trên tay "..
+				"\nbằng số lượng Lá Bất Khuất.",
 	["fenji"] = "Phấn Khích",
-	[":fenji"] = "Khi 1 lá của 1 người chơi bị bỏ hoặc lấy bởi một người chơi khác (ngoại trừ cấp bài và đổi bài), nếu số máu của bạn lớn hơn 0, bạn mất 1 máu: rồi người đó được rút 2 lá.",
+	[":fenji"] = "Khi 1 lá của 1 người chơi bị bỏ hoặc lấy bởi một"..
+				"\nngười chơi khác (ngoại trừ cấp bài và đổi bài), nếu số máu của"..
+				"\nbạn lớn hơn 0, bạn mất 1 máu: rồi người đó được rút 2 lá.",
 
 	["#yuji"] = "Thái Bình Đạo Nhân",
 	["yuji"] = "Vu Cát",
 	["illustrator:yuji"] = "魔鬼鱼",
 	["guhuo"] = "Cổ Hoặc",
-	[":guhuo"] = "Mỗi khi bạn muốn sử dụng lá công cụ không duy trì hoặc lá cơ bản, bạn có thể nói ra lá muốn sài rồi giữ lá đó trên tay, những người chơi khác được chọn có tin hay không: Nếu mọi người đều tin, thì lật lá đó lên rồi sử dụng bình thường; nếu có người không tin, thì lá đó được lật lên, nếu lá đó đúng, người chơi bị Triền Oán (Tọa Định Kĩ. Bạn không thể không tin Cổ Hoặc. Nếu bạn còn 1 máu, không thể sử dụng kĩ năng.), rồi bạn sử dụng lá đó bình thường, nếu lá đó sai lá đó bị hủy. Chỉ tác động một lần lên một người chơi. ",
+	[":guhuo"] = "Mỗi khi bạn muốn sử dụng lá công cụ không duy trì"..
+				"\nhoặc lá cơ bản, bạn có thể nói ra lá muốn sài rồi "..
+				"\ngiữ lá đó trên tay, những người chơi khác được chọn"..
+				"\ncó tin hay không: Nếu mọi người đều tin, thì lá đó trở"..
+				"\nthành lá bạn nói; nếu có người không tin, thì lá đó được"..
+				"\nlật lên, nếu lá đó đúng, người chơi bị Triền Oán "..
+				"\n(Tọa Định Kĩ. Bạn không thể không tin Cổ Hoặc. Nếu bạn"..
+				"\ncòn 1 máu, không thể sử dụng kĩ năng.), rồi bạn sử dụng"..
+				"\nlá đó bình thường, nếu lá đó sai lá đó bị hủy. Chỉ tác"..
+				"\nđộng một lần lên một người chơi. ",
 				 
 	["chanyuan"] = "Triền Oán",
-	[":chanyuan"] = "Tọa Định Kĩ. Bạn không thể nghi ngờ “Cổ Hoặc”. ",
-					"\nNếu bạn còn 1 máu bạn không sử dụng được kĩ năng còn lại",
+	[":chanyuan"] = "Tọa Định Kĩ. Bạn không thể nghi ngờ “Cổ Hoặc”. "..
+					"\nNếu bạn còn 1 máu bạn không sử dụng được kĩ năng.",
 	["question"] = "Không Tin",
 	["noquestion"] = "Tin",
 	["guhuo_saveself"] = "Cổ Hoặc lá Đào hoặc lá Rượu",
@@ -82,7 +96,7 @@ return {
 	["#GuhuoNoTarget"] = "%from sử dụng“%arg2”，nói lá này là 【%arg】",
 	["#GuhuoCannotQuestion"] = "%from có số màu là %arg，không thể nghi ngờ",
 	["#GuhuoQuery"] = "%from đã nói %arg",
-	["$GuhuoResult"] = "%from đã sử dụng “<font color=\"yellow\"><b>Cổ Hoặc</b></font>” đúng lá %card",
+	["$GuhuoResult"] = "%from đã sử dụng “<font color=\"yellow\"><b>Cổ Hoặc</b></font>”  là lá %card",
 	["#Chanyuan"] = "%from  đã kích hoạt “%arg”，không thể bị nghi ngờ.",
 }
 	
