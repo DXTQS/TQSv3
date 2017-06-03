@@ -17,29 +17,40 @@ return {
 	[":deluge"] = "Thẻ công cụ duy trì\
 <br /><b>Thời cơ</b>: Trong lượt hành động.\
 <br /><b>Mục tiêu</b>： Bản thân。\
-<br /><b>Hiệu quả</b>： Hồng Thủy được đặt vào khu vực phán xét của bạn, bạn rút phán xét vào lượt sau, nếu phán xét là A,K，bạn phải bỏ ra X lá bài bất kì, X bằng số người chơi còn sống. Từ người chơi kế tiếp，mỗi người được lấy 1 lá từ X lá đó，rồi bạn được rút 2 lá mới. Nếu phát xét không phả A,K, lá Hồng Thủy được chuyển cho người chơi tiếp theo.",
+<br /><b>Hiệu quả</b>： Khi Hồng Thủy được đặt vào khu vực phán xét của bạn, bạn được rút phán xét vào giai đoạn phán xét, nếu phán xét là A,K，bạn phải bỏ ra X lá bài bất kì, X bằng số người chơi còn sống. Từ người chơi kế tiếp，mỗi người được lấy 1 lá từ X lá đó. Nếu phát xét không phải A,K, lá Hồng Thủy được chuyển cho người chơi tiếp theo.",
 --延时锦囊牌\
 --出牌时机：出牌阶段。\
 --使用目标：你。\
 --作用效果：将【洪水】放置于你的判定区里，回合判定阶段进行判定：若判定结果为 --A,K，从当前角色的牌随机取出和场上存活人数相等的数量置于桌前，从下家开始，每人选一张收为手牌，将【洪水】置入弃牌堆。若判定结果不为AK，将【洪水】移到当前角色下家的判定区里
 
-	["typhoon"] = "台风",
-	[":typhoon"] = "延时锦囊牌\
-出牌时机：出牌阶段。\
-使用目标：你。\
-作用效果：将【台风】放置于你的判定区里，回合判定阶段进行判定：若判定结果为方块2~9之间，与当前角色距离为1的角色弃置6张手牌，将【台风】置入弃牌堆。若判定结果不为方块2~9之间，将【台风】移动到当前角色下家的判定区里",
+	["typhoon"] = "Đài Phong",--台风
+	[":typhoon"] = "Thẻ công cụ duy trì\
+<br /><b>Thời cơ</b>: Trong lượt hành động.\
+<br /><b>Mục tiêu</b>： Bản thân。\
+<br /><b>Hiệu quả</b>： Khi Đài Phong được đặt vào khu vực phán xét của bạn, bạn được rút phán xét vào giai đoạn phát xét, nếu phán xét ở giữa từ 2 Rô đến 9 Rô, những người chơi trong tầm 1 của bạn phải bỏ 6 lá. Nếu phán xét không nằm từ 2 Rô đến 9 Rô, Đài Phong được chuyển cho người chơi tiếp theo.",
+--延时锦囊牌
+--出牌时机：出牌阶段。
+--使用目标：你。
+--作用效果：将【台风】放置于你的判定区里，回合判定阶段进行判定：若判定结果为方块2~9之间，与当前角色距离为1的角色弃置6张手牌，将【台风】置入弃牌堆。若判定结果不为方块2~9之间，将【台风】移动到当前角色下家的判定区里
+	["earthquake"] = "Địa Chấn",--地震
+	[":earthquake"] = "Thẻ công cụ duy trì\
+<br /><b>Thời cơ</b>: Trong lượt hành động.\
+<br /><b>Mục tiêu</b>： Bản thân。\
+<br /><b>Hiệu quả</b>： Khi Địa Chấn được đặt vào khu vực phán xét của bạn, bạn được rút phán xét vào giai đoạn phát xét, nếu phán xét ở giữa từ 2 Chuồng đến 9 Chuồng, những người chơi trong tầm 1 của bạn phải bỏ hết trang bị (bỏ qua ngựa +1) . Nếu phán xét không nằm từ 2 Chuồng đến 9 Chuồng, Địa Chấn được chuyển cho người chơi tiếp theo.",
+--延时锦囊牌
+--出牌时机：出牌阶段。
+--使用目标：你。
+--作用效果：将【地震】放置于你的判定区里，回合判定阶段进行判定：若判定结果为梅花2~9之间，与当前角色距离为1以内的角色(无视+1马)弃置装备区里的所有牌，将【地震】置入弃牌堆。若判定结果不为梅花2~9之间，将【地震】移动到当前角色下家的判定区里
+	["volcano"] = "Hỏa Sơn",--火山
+	[":volcano"] = "Thẻ công cụ duy trì\
+<br /><b>Thời cơ</b>: Trong lượt hành động.\
+<br /><b>Mục tiêu</b>： Bản thân。\
+<br /><b>Hiệu quả</b>： ",
+--延时锦囊牌
+--出牌时机：出牌阶段。
+--使用目标：你。
+--作用效果：将【火山】放置于你的判定区里，回合判定阶段进行判定：若判定结果为红桃2~9之间，当前角色受到2点火焰伤害，与当前角色距离为1的角色(无视+1马)受到1点火焰伤害，【火山】生效后即置入弃牌堆。若判定结果不为红桃2~9之间，将【火山】移动到当前角色下家的判定区里
 
-	["earthquake"] = "地震",
-	[":earthquake"] = "延时锦囊牌\
-出牌时机：出牌阶段。\
-使用目标：你。\
-作用效果：将【地震】放置于你的判定区里，回合判定阶段进行判定：若判定结果为梅花2~9之间，与当前角色距离为1以内的角色(无视+1马)弃置装备区里的所有牌，将【地震】置入弃牌堆。若判定结果不为梅花2~9之间，将【地震】移动到当前角色下家的判定区里",
-
-	["volcano"] = "火山",
-	[":volcano"] = "延时锦囊牌\
-出牌时机：出牌阶段。\
-使用目标：你。\
-作用效果：将【火山】放置于你的判定区里，回合判定阶段进行判定：若判定结果为红桃2~9之间，当前角色受到2点火焰伤害，与当前角色距离为1的角色(无视+1马)受到1点火焰伤害，【火山】生效后即置入弃牌堆。若判定结果不为红桃2~9之间，将【火山】移动到当前角色下家的判定区里",
 
 	["mudslide"] = "泥石流",
 	[":mudslide"] = "延时锦囊牌\
