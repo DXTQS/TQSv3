@@ -11,11 +11,11 @@ CommonTranslationTable = {
 	["offensive"] = "Tiên Thủ", --先手
 	["defensive"] = "Hậu Thủ", --后手
 
-	["compulsoryskill"] = "Tỏa Định Kĩ.", --锁定技。
-	["limitedskill"] = "Hạn Định Kĩ.", --限定技。
-	["wakeskill"] = "Giác Tỉnh Kĩ.", --觉醒技。
-	["lordskill"] = "Chủ Công Kĩ.", --主公技。
-	["oppphskill"] = "Giai Đoạn Kĩ.", --阶段技。
+	["compulsoryskill"] = "Tỏa Định Kĩ", --锁定技。
+	["limitedskill"] = "Hạn Định Kĩ", --限定技。
+	["wakeskill"] = "Giác Tỉnh Kĩ", --觉醒技。
+	["lordskill"] = "Chủ Công Kĩ", --主公技。
+	["oppphskill"] = "Giai Đoạn Kĩ", --阶段技。
 
 	["Pairs"] = "Tổ Hợp", --双将
 	["XMode"] = "Huyết chiến đến cùng", --血战到底
@@ -71,8 +71,8 @@ CommonTranslationTable = {
 	["turnover"] = "lật mở thẻ bài trên đầu tập thẻ", --从牌堆顶翻开
 	["preview"] = "xem trước thẻ đầu tiên trên tập bài", --观看牌堆顶
 	["show"] = "bày ra", --展示
-	["online"] = "Online", --在线
- 	["offline"] = "Ofline", --离线 
+	["online"] = "ON", --在线
+ 	["offline"] = "OFFLINE", --离线 
 	["robot"] = "BOT", -- 电脑
 	["trust"] = "AUTO", --托管
 	["yes"] = "Có", --是
