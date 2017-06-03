@@ -1,7 +1,7 @@
 -- translation for YJCM2012 Package
 
 return {
-	["YJCM2012"] = "一将成名2012",
+	["YJCM2012"] = "Nhất tướng thành danh 2012",--一将成名2012
 
 	["#xunyou"] = "曹魏的谋主",
 	["xunyou"] = "荀攸",

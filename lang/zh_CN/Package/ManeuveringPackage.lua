@@ -35,7 +35,7 @@ return {
 	["iron_chain"] = "Thiết Tác Liên Hoàn", --铁索连环
 	[":iron_chain"] = "Thẻ công cụ.<br /><b>Sử dụng</b>：Trong lượt hành động.<br /><b>Mục Tiêu</b>：1 đến 2 mục tiêu<br /><b>Hiệu Quả</b>：Xích hoặc Tháo xích những mục tiêu chỉ định<br />Chú thích： Có thể bỏ thẻ này để rút 1 thẻ khác.",
 
-	["supply_shortage"] = "Bin Lương Thốn Đoạn", --兵粮寸断
+	["supply_shortage"] = "Binh Lương Thốn Đoạn", --兵粮寸断
 	[":supply_shortage"] = "Thẻ công cụ duy trì.<br /><b>Sử dụng</b>：Trong lượt hành động<br /><b>Mục Tiêu</b>：Một người chơi khác trong tầm 1.<br /><b>Hiệu Quả</b>： Đặt lá này vào vùng phán xét của 1 mục tiêu: Mục tiêu rút phán xét, nếu không phải Chuồng (chuồng) sẽ bỏ qua lượt rút bài. ",
 
 	["hualiu"] = "Hoa Lưu", --骅骝

@@ -1,7 +1,7 @@
 -- translation for YJCM Package
 
 return {
-	["YJCM"] = "一将成名",
+	["YJCM"] = "Nhất tướng thành danh",--一将成名
 
 	["#caozhi"] = "八斗之才",
 	["caozhi"] = "曹植",

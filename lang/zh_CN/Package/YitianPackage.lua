@@ -1,10 +1,10 @@
 -- translation for YitianPackage
 
 return {
-	["yitian"] = "倚天包",
-	["yitian_cards"] = "倚天卡牌包",
+	["yitian"] = "Ỷ Thiên",--倚天包
+	["yitian_cards"] = "Bộ Ỷ Thiên",--倚天卡牌包
 
-	["yitian_sword"] = "倚天剑",
+	["yitian_sword"] = "Ỷ Thiên Kiếm",--倚天剑
 	[":yitian_sword"] = "装备牌·武器\
 		攻击范围：２\
 		武器技能：每当你于回合外受到伤害结算完毕后，你可以使用一张【杀】；当你失去装备区里的【倚天剑】时，你可以对一名其他角色造成【倚天剑】造成的1点伤害。",
@@ -77,7 +77,7 @@ return {
 	["@tied"] = "连理",
 
 	-- 神司马
-	["#jinxuandi"] = "祁山里的术士",
+	["#jinxuandi"] = "Kỳ Sơn Lí Đích Thuật Sĩ",--祁山里的术士
 	["jinxuandi"] = "晋宣帝",
 	["wuling"] = "五灵",
 	[":wuling"] = "准备阶段开始时，你可选择一种五灵效果，该效果对场上所有角色生效\
@@ -178,7 +178,7 @@ return {
 	["~toudu"] = "选择一张牌→选择【杀】的目标→点击确定",
 
 	-- 张鲁
-	["#zhanggongqi"] = "五斗米道",
+	["#zhanggongqi"] = "Ngũ Đấu Mễ Đạo",--五斗米道
 	["zhanggongqi"] = "张公祺",
 	["ytyishe"] = "义舍",
 	[":ytyishe"] = "出牌阶段，你可以将至少一张手牌置于你的武将牌上称为“米”（“米”不能多于五张）或获得至少一张“米”；其他角色的<font color=\"green\"><b>出牌阶段限两次，</b></font>其可选择一张“米”，你可以将之交给其。",
@@ -192,8 +192,8 @@ return {
 	["ytyishe_ask:disallow"] = "不同意",
 
 	-- 倚天剑
-	["#yitianjian"] = "跨海斩长鲸",
-	["yitianjian"] = "倚天剑",
+	["#yitianjian"] = "Khóa Hải Trảm Trường Kình",--跨海斩长鲸
+	["yitianjian"] = "Ỷ Thiên Kiếm",--倚天剑
 	["zhengfeng"] = "争锋",
 	[":zhengfeng"] = "<font color=\"blue\"><b>锁定技，</b></font>若你的装备区没有武器牌，你的攻击范围为X（X为你的体力值）。",
 	["ytzhenwei"] = "镇威",

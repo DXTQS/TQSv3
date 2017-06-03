@@ -1,7 +1,7 @@
 -- translation for JoyPackage
 
 return {
-	["joy"] = "欢乐包",
+	["joy"] = "Hoan Lạc",--欢乐包
 
 	["shit"] = "屎",
 	[":shit"] = "基本牌\
@@ -11,13 +11,17 @@ return {
 	["$ShitDamage"] = "%from 吃了 %card, 将受到自己对自己的1点伤害",
 
 -- disaster
-	["Disaster"] = "天灾包",
+	["Disaster"] = "Thiên Tai",--天灾包
 
-	["deluge"] = "洪水",
-	[":deluge"] = "延时锦囊牌\
-出牌时机：出牌阶段。\
-使用目标：你。\
-作用效果：将【洪水】放置于你的判定区里，回合判定阶段进行判定：若判定结果为 A,K，从当前角色的牌随机取出和场上存活人数相等的数量置于桌前，从下家开始，每人选一张收为手牌，将【洪水】置入弃牌堆。若判定结果不为AK，将【洪水】移到当前角色下家的判定区里",
+	["deluge"] = "Hồng Thủy",--洪水
+	[":deluge"] = "Thẻ công cụ duy trì\
+<br /><b>Thời cơ</b>: Trong lượt hành động.\
+<br /><b>Mục tiêu</b>： Bản thân。\
+<br /><b>Hiệu quả</b>： Hồng Thủy được đặt vào khu vực phán xét của bạn, bạn rút phán xét vào lượt sau, nếu phán xét là A,K，bạn phải bỏ ra X lá bài bất kì, X bằng số người chơi còn sống. Từ người chơi kế tiếp，mỗi người được lấy 1 lá từ X lá đó，rồi bạn được rút 2 lá mới. Nếu phát xét không phả A,K, lá Hồng Thủy được chuyển cho người chơi tiếp theo.",
+--延时锦囊牌\
+--出牌时机：出牌阶段。\
+--使用目标：你。\
+--作用效果：将【洪水】放置于你的判定区里，回合判定阶段进行判定：若判定结果为 --A,K，从当前角色的牌随机取出和场上存活人数相等的数量置于桌前，从下家开始，每人选一张收为手牌，将【洪水】置入弃牌堆。若判定结果不为AK，将【洪水】移到当前角色下家的判定区里
 
 	["typhoon"] = "台风",
 	[":typhoon"] = "延时锦囊牌\
@@ -44,7 +48,7 @@ return {
 作用效果：将【泥石流】放置于你的判定区里，回合判定阶段进行判定：若判定结果为黑桃或梅花A,K,4,7，从当前角色开始，每名角色依次按顺序弃置武器、防具、+1马、-1马，无装备者受到1点无属性伤害，当总共被弃置的装备达到4件或你上家结算完成时，【泥石流】停止结算并置入弃牌堆。若判定牌不为黑色AK47，将【泥石流】移动到下家的判定区里",
 
 -- equips
-	["JoyEquip"] = "欢乐装备包",
+	["JoyEquip"] = "Hoan lạc Trang bị",--欢乐装备包
 
 	["monkey"] = "猴子",
 	[":monkey"] = "装备牌·坐骑\
