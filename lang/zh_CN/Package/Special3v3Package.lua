@@ -69,6 +69,8 @@ return {
 	["@zhenwei"] = "你可以发动“镇卫”",
 	["~zhenwei"] = "选择至多X名其他角色→点击确定",
 
-	["vscrossbow"] = "连弩",
-	[":vscrossbow"] = "装备牌·武器<br /><b>攻击范围</b>：１<br /><b>武器技能</b>：锁定技。出牌阶段，你可以额外使用三张【杀】。",
+	["vscrossbow"] = "Liên Nỏ",--连弩
+	[":vscrossbow"] = "Thẻ trang bị - Vũ Khí<br /><b>Tầm đánh</b>： 1<br /><b>Hiệu quả</b>： Tọa Định Kĩ. Trong lượt hành động, bạn có thể dùng 3 lá Sát。",
+	[":vscrossbow"] = "Thẻ trang bị - Vũ Khí<br /><b>Tầm đánh</b>： 1<br /><b>Hiệu quả</b>： Tọa Định Kĩ. Trong lượt hành động, bạn có thể dùng 3 lá Sát。",
+	--装备牌·武器<br /><b>攻击范围</b>：１<br /><b>武器技能</b>：锁定技。出牌阶段，你可以额外使用三张【杀】
 }

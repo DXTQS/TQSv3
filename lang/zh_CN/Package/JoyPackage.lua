@@ -93,7 +93,7 @@ không nhỏ hơn 5, bạn có kĩ năng Khổ Nhục；\
 4, bạn có kĩ năng Quốc Sắc；\
 3, bạn có kĩ năng Kết Nhân；\
 2, bạn có kĩ năng Tập Trí；\
-không lớn hơn 1, bạn có kĩ năng Nhân Đức.",
+nhỏ hơn hoặc bằng 1, bạn có kĩ năng Nhân Đức.",
 --装备牌·防具
 --防具效果：当你的体力值：
 --不小于5，视为你拥有“苦肉”；

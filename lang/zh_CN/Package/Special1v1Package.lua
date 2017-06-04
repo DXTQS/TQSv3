@@ -90,10 +90,11 @@ return {
 	[":yanhuo_p"] = "你死亡时，你可以依次弃置一名其他角色X张牌。（X为你死亡时的牌数）",
 	["yanhuo-invoke"] = "你可以发动“延祸”<br/> <b>操作提示</b>: 选择一名其他角色→点击确定<br/>",
 
-	["drowning"] = "水淹七军",
-	[":drowning"] = "锦囊牌<br /><b>时机</b>：出牌阶段<br /><b>目标</b>：对手 <br /><b>效果</b>：令目标角色选择一项：弃置装备区的所有牌（至少一张），或受到1点伤害。",
-	["drowning:damage"] = "受到1点伤害",
-	["drowning:throw"] = "弃置所有装备",
+	["drowning"] = "Thủy Yêm Thất Quân",--水淹七军
+	[":drowning"] = "Thẻ công cụ<br /><b>Sử dụng</b>： Trong lượt hành động<br /><b>Mục tiêu</b>： Đối phương. <br /><b>Hiệu quả</b>： bỏ hết trang bị không sẽ mất 1 máu.",
+	--锦囊牌<br /><b>时机</b>：出牌阶段<br /><b>目标</b>：对手 <br /><b>效果</b>：令目标角色选择一项：弃置装备区的所有牌（至少一张），或受到1点伤害。
+	["drowning:damage"] = "Mất 1 máu.",--受到1点伤害
+	["drowning:throw"] = "Bỏ hết trang bị",--弃置所有装备
 
 	["kof_nos_liubei"] = "刘备1v1",
 	["&kof_nos_liubei"] = "刘备",
